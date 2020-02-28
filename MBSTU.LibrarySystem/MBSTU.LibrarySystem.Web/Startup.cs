@@ -74,7 +74,9 @@ namespace MBSTU.LibrarySystem.Web
                 routes.MapRoute(
                     name: "areas",
                     template: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}");
-
+                routes.MapRoute(
+                    name: "areas",
+                    template: "{area:exists}/{controller=FrontEnd}/{action=Index}/{id?}");
             });
         }
     }

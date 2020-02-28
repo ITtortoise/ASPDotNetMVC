@@ -12979,11 +12979,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ITtortoise\\Desktop\\MBSTU.LibrarySystem\\MBSTU.LibrarySystem.WEB\\MBSTU.LibrarySystem.WEB.csproj",
+      "projectUniqueName": "H:\\ASP.netCoreMVC\\ASPDotNetMVC\\MBSTU.LibrarySystem\\MBSTU.LibrarySystem.WEB\\MBSTU.LibrarySystem.WEB.csproj",
       "projectName": "MBSTU.LibrarySystem.WEB",
-      "projectPath": "C:\\Users\\ITtortoise\\Desktop\\MBSTU.LibrarySystem\\MBSTU.LibrarySystem.WEB\\MBSTU.LibrarySystem.WEB.csproj",
+      "projectPath": "H:\\ASP.netCoreMVC\\ASPDotNetMVC\\MBSTU.LibrarySystem\\MBSTU.LibrarySystem.WEB\\MBSTU.LibrarySystem.WEB.csproj",
       "packagesPath": "C:\\Users\\ITtortoise\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ITtortoise\\Desktop\\MBSTU.LibrarySystem\\MBSTU.LibrarySystem.WEB\\obj\\",
+      "outputPath": "H:\\ASP.netCoreMVC\\ASPDotNetMVC\\MBSTU.LibrarySystem\\MBSTU.LibrarySystem.WEB\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
