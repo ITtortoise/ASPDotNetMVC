@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ITtortoise\\Desktop\\MBSTU.LibrarySystem\\MBSTU.LibrarySystem.WEB\\MBSTU.LibrarySystem.WEB.csproj": {}
+    "H:\\ASPdotNETcoreMVC\\ASPDotNetMVC\\assignment3\\MBSTU.LibrarySystem\\MBSTU.LibrarySystem.WEB\\MBSTU.LibrarySystem.WEB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ITtortoise\\Desktop\\MBSTU.LibrarySystem\\MBSTU.LibrarySystem.WEB\\MBSTU.LibrarySystem.WEB.csproj": {
+    "H:\\ASPdotNETcoreMVC\\ASPDotNetMVC\\assignment3\\MBSTU.LibrarySystem\\MBSTU.LibrarySystem.WEB\\MBSTU.LibrarySystem.WEB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ITtortoise\\Desktop\\MBSTU.LibrarySystem\\MBSTU.LibrarySystem.WEB\\MBSTU.LibrarySystem.WEB.csproj",
+        "projectUniqueName": "H:\\ASPdotNETcoreMVC\\ASPDotNetMVC\\assignment3\\MBSTU.LibrarySystem\\MBSTU.LibrarySystem.WEB\\MBSTU.LibrarySystem.WEB.csproj",
         "projectName": "MBSTU.LibrarySystem.WEB",
-        "projectPath": "C:\\Users\\ITtortoise\\Desktop\\MBSTU.LibrarySystem\\MBSTU.LibrarySystem.WEB\\MBSTU.LibrarySystem.WEB.csproj",
+        "projectPath": "H:\\ASPdotNETcoreMVC\\ASPDotNetMVC\\assignment3\\MBSTU.LibrarySystem\\MBSTU.LibrarySystem.WEB\\MBSTU.LibrarySystem.WEB.csproj",
         "packagesPath": "C:\\Users\\ITtortoise\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ITtortoise\\Desktop\\MBSTU.LibrarySystem\\MBSTU.LibrarySystem.WEB\\obj\\",
+        "outputPath": "H:\\ASPdotNETcoreMVC\\ASPDotNetMVC\\assignment3\\MBSTU.LibrarySystem\\MBSTU.LibrarySystem.WEB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
