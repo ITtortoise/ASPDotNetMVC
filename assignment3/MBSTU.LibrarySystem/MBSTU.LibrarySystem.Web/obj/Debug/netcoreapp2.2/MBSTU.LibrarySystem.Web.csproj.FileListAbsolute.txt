@@ -232,3 +232,6 @@ H:\ASPdotNETcoreMVC\ASPDotNetMVC\assignment3\MBSTU.LibrarySystem\MBSTU.LibrarySy
 H:\ASPdotNETcoreMVC\ASPDotNetMVC\assignment3\MBSTU.LibrarySystem\MBSTU.LibrarySystem.WEB\obj\Debug\netcoreapp2.2\MBSTU.LibrarySystem.WEB.dll
 H:\ASPdotNETcoreMVC\ASPDotNetMVC\assignment3\MBSTU.LibrarySystem\MBSTU.LibrarySystem.WEB\obj\Debug\netcoreapp2.2\MBSTU.LibrarySystem.WEB.pdb
 H:\ASPdotNETcoreMVC\ASPDotNetMVC\assignment3\MBSTU.LibrarySystem\MBSTU.LibrarySystem.WEB\obj\Debug\netcoreapp2.2\MBSTU.LibrarySystem.WEB.csproj.CopyComplete
+H:\ASPDotNetMVC\assignment3\MBSTU.LibrarySystem\MBSTU.LibrarySystem.WEB\obj\Debug\netcoreapp2.2\Razor\Areas\User\Views\FrontEnd\Index.cshtml.g.cs
+H:\ASPDotNetMVC\assignment3\MBSTU.LibrarySystem\MBSTU.LibrarySystem.WEB\obj\Debug\netcoreapp2.2\Razor\Areas\User\Views\Shared\_Layout.cshtml.g.cs
+H:\ASPDotNetMVC\assignment3\MBSTU.LibrarySystem\MBSTU.LibrarySystem.WEB\obj\Debug\netcoreapp2.2\Razor\Areas\User\Views\_ViewStart.cshtml.g.cs
