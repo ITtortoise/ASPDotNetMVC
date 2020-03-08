@@ -5,8 +5,7 @@ using System.Threading.Tasks;
 
 namespace MBSTU.LibrarySystem.WEB.Areas.Admin.Models
 {
-    public class DashboardModel :AdminBaseModel
+    public class BooksModel :AdminBaseModel
     {
-      
     }
 }

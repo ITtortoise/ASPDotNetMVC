@@ -274,3 +274,4 @@ H:\ASPDotNetMVC\PartialThemeIntegration&DataTableIntegration\MBSTU.LibrarySystem
 H:\ASPDotNetMVC\PartialThemeIntegration&DataTableIntegration\MBSTU.LibrarySystem\MBSTU.LibrarySystem.WEB\obj\Debug\netcoreapp2.2\MBSTU.LibrarySystem.WEB.csproj.CopyComplete
 H:\ASPDotNetMVC\PartialThemeIntegration&DataTableIntegration\MBSTU.LibrarySystem\MBSTU.LibrarySystem.WEB\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Shared\_LeftMenu.cshtml.g.cs
 H:\ASPDotNetMVC\PartialThemeIntegration&DataTableIntegration\MBSTU.LibrarySystem\MBSTU.LibrarySystem.WEB\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+H:\ASPDotNetMVC\PartialThemeIntegration&DataTableIntegration\MBSTU.LibrarySystem\MBSTU.LibrarySystem.WEB\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Books\Index.cshtml.g.cs
