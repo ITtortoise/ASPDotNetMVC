@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MBSTU.LibrarySystem.WEB.Areas.Admin.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MBSTU.LibrarySystem.Web.Areas.Admin.Controllers
@@ -12,7 +13,9 @@ namespace MBSTU.LibrarySystem.Web.Areas.Admin.Controllers
       
         public IActionResult Index()
         {
-            return View();
+            var model = new DashboardModel();
+            model.MenuModel = new MenuModel();
+            return View(model);
         }
     }
 }
