@@ -4735,6 +4735,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "MBSTU.LibrarySystem.Framwork/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/MBSTU.LibrarySystem.Framwork.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MBSTU.LibrarySystem.Framwork.dll": {}
+        }
       }
     }
   },
@@ -12954,10 +12964,16 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "MBSTU.LibrarySystem.Framwork/1.0.0": {
+      "type": "project",
+      "path": "../MBSTU.LibrarySystem.Framwork/MBSTU.LibrarySystem.Framwork.csproj",
+      "msbuildProject": "../MBSTU.LibrarySystem.Framwork/MBSTU.LibrarySystem.Framwork.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "MBSTU.LibrarySystem.Framwork >= 1.0.0",
       "Microsoft.AspNetCore >= 2.2.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Mvc >= 2.2.0",
@@ -13001,7 +13017,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "H:\\ASPDotNetMVC\\PartialThemeIntegration&DataTableIntegration\\MBSTU.LibrarySystem\\MBSTU.LibrarySystem.Framwork\\MBSTU.LibrarySystem.Framwork.csproj": {
+              "projectPath": "H:\\ASPDotNetMVC\\PartialThemeIntegration&DataTableIntegration\\MBSTU.LibrarySystem\\MBSTU.LibrarySystem.Framwork\\MBSTU.LibrarySystem.Framwork.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -13082,5 +13102,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project MBSTU.LibrarySystem.Framwork is not compatible with netcoreapp2.2 (.NETCoreApp,Version=v2.2). Project MBSTU.LibrarySystem.Framwork supports: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "MBSTU.LibrarySystem.Framwork",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    }
+  ]
 }

@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="/admin/plugins/datatables-bs4/css/dataTables.bootstrap4.css">
 }
 
+<!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
@@ -28,6 +29,15 @@
             <div class="col-12">
                 <div class="card">
                     <div class="card-header">
+                        <h3 class="card-title">DataTable with minimal features & hover style</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+
+                <div class="card">
+                    <div class="card-header">
                         <h3 class="card-title">DataTable with default features</h3>
                     </div>
                     <!-- /.card-header -->
@@ -41,14 +51,6 @@
                                     <th>Publish Date</th>
                                 </tr>
                             </thead>
-                            <tfoot>
-                                <tr>
-                                    <th>Title</th>
-                                    <th>Author</th>
-                                    <th>Edition</th>
-                                    <th>Publish Date</th>
-                                </tr>
-                            </tfoot>
                         </table>
                     </div>
                     <!-- /.card-body -->
@@ -61,6 +63,15 @@
     </section>
     <!-- /.content -->
 </div>
+<!-- /.content-wrapper -->
+
+<!-- Control Sidebar -->
+<aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+</aside>
+<!-- /.control-sidebar -->
+<!-- ./wrapper -->
+
 
 @section PageScripts
 {
@@ -70,11 +81,10 @@
     <!-- page script -->
     <script>
         $(function () {
-            $('#example1').DataTable({
-                "processing": true,
-                "serverSide": true,
-                "ajax": "/Admin/Books/GetBooks"
-            });
+            $("#example1").DataTable("processing": true,
+            "serverSide": true,
+            "ajax": "/Admin/Books/GetBooks");
+   
         });
     </script>
 }
