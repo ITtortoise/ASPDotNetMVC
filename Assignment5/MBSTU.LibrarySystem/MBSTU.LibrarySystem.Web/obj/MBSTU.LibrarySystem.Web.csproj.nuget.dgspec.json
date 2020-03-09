@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\ASPDotNetMVC\\PartialThemeIntegration&DataTableIntegration\\MBSTU.LibrarySystem\\MBSTU.LibrarySystem.WEB\\MBSTU.LibrarySystem.WEB.csproj": {}
+    "H:\\ASPDotNetMVC\\Assignment5\\MBSTU.LibrarySystem\\MBSTU.LibrarySystem.WEB\\MBSTU.LibrarySystem.WEB.csproj": {}
   },
   "projects": {
-    "H:\\ASPDotNetMVC\\PartialThemeIntegration&DataTableIntegration\\MBSTU.LibrarySystem\\MBSTU.LibrarySystem.WEB\\MBSTU.LibrarySystem.WEB.csproj": {
+    "H:\\ASPDotNetMVC\\Assignment5\\MBSTU.LibrarySystem\\MBSTU.LibrarySystem.WEB\\MBSTU.LibrarySystem.WEB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\ASPDotNetMVC\\PartialThemeIntegration&DataTableIntegration\\MBSTU.LibrarySystem\\MBSTU.LibrarySystem.WEB\\MBSTU.LibrarySystem.WEB.csproj",
+        "projectUniqueName": "H:\\ASPDotNetMVC\\Assignment5\\MBSTU.LibrarySystem\\MBSTU.LibrarySystem.WEB\\MBSTU.LibrarySystem.WEB.csproj",
         "projectName": "MBSTU.LibrarySystem.WEB",
-        "projectPath": "H:\\ASPDotNetMVC\\PartialThemeIntegration&DataTableIntegration\\MBSTU.LibrarySystem\\MBSTU.LibrarySystem.WEB\\MBSTU.LibrarySystem.WEB.csproj",
+        "projectPath": "H:\\ASPDotNetMVC\\Assignment5\\MBSTU.LibrarySystem\\MBSTU.LibrarySystem.WEB\\MBSTU.LibrarySystem.WEB.csproj",
         "packagesPath": "C:\\Users\\ITtortoise\\.nuget\\packages\\",
-        "outputPath": "H:\\ASPDotNetMVC\\PartialThemeIntegration&DataTableIntegration\\MBSTU.LibrarySystem\\MBSTU.LibrarySystem.WEB\\obj\\",
+        "outputPath": "H:\\ASPDotNetMVC\\Assignment5\\MBSTU.LibrarySystem\\MBSTU.LibrarySystem.WEB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
