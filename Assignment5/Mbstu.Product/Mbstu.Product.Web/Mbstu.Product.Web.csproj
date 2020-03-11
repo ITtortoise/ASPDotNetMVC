@@ -20,4 +20,9 @@
     <Folder Include="Areas\Admin\Data\" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mbstu.Product.Framwork\Mbstu.Product.Framwork.csproj" />
+  </ItemGroup>
+
 </Project>

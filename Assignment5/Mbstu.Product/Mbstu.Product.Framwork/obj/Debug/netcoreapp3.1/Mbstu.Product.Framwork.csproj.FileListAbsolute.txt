@@ -6,3 +6,6 @@ H:\ASPDotNetMVC\Assignment5\Mbstu.Product\Mbstu.Product.Framwork\obj\Debug\netco
 H:\ASPDotNetMVC\Assignment5\Mbstu.Product\Mbstu.Product.Framwork\obj\Debug\netcoreapp3.1\Mbstu.Product.Framwork.AssemblyInfo.cs
 H:\ASPDotNetMVC\Assignment5\Mbstu.Product\Mbstu.Product.Framwork\obj\Debug\netcoreapp3.1\Mbstu.Product.Framwork.dll
 H:\ASPDotNetMVC\Assignment5\Mbstu.Product\Mbstu.Product.Framwork\obj\Debug\netcoreapp3.1\Mbstu.Product.Framwork.pdb
+H:\ASPDotNetMVC\Assignment5\Mbstu.Product\Mbstu.Product.Framwork\bin\Debug\netcoreapp3.1\Mbstu.Product.Data.dll
+H:\ASPDotNetMVC\Assignment5\Mbstu.Product\Mbstu.Product.Framwork\bin\Debug\netcoreapp3.1\Mbstu.Product.Data.pdb
+H:\ASPDotNetMVC\Assignment5\Mbstu.Product\Mbstu.Product.Framwork\obj\Debug\netcoreapp3.1\Mbstu.Product.Framwork.csproj.CopyComplete
