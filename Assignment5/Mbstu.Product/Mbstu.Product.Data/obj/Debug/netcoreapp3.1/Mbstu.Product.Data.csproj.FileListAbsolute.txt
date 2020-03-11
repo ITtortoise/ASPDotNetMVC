@@ -1,0 +1,8 @@
+H:\ASPDotNetMVC\Assignment5\Mbstu.Product\Mbstu.Product.Data\bin\Debug\netcoreapp3.1\Mbstu.Product.Data.deps.json
+H:\ASPDotNetMVC\Assignment5\Mbstu.Product\Mbstu.Product.Data\bin\Debug\netcoreapp3.1\Mbstu.Product.Data.dll
+H:\ASPDotNetMVC\Assignment5\Mbstu.Product\Mbstu.Product.Data\obj\Debug\netcoreapp3.1\Mbstu.Product.Data.csprojAssemblyReference.cache
+H:\ASPDotNetMVC\Assignment5\Mbstu.Product\Mbstu.Product.Data\obj\Debug\netcoreapp3.1\Mbstu.Product.Data.AssemblyInfoInputs.cache
+H:\ASPDotNetMVC\Assignment5\Mbstu.Product\Mbstu.Product.Data\obj\Debug\netcoreapp3.1\Mbstu.Product.Data.AssemblyInfo.cs
+H:\ASPDotNetMVC\Assignment5\Mbstu.Product\Mbstu.Product.Data\bin\Debug\netcoreapp3.1\Mbstu.Product.Data.pdb
+H:\ASPDotNetMVC\Assignment5\Mbstu.Product\Mbstu.Product.Data\obj\Debug\netcoreapp3.1\Mbstu.Product.Data.dll
+H:\ASPDotNetMVC\Assignment5\Mbstu.Product\Mbstu.Product.Data\obj\Debug\netcoreapp3.1\Mbstu.Product.Data.pdb

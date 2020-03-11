@@ -1,0 +1,8 @@
+H:\ASPDotNetMVC\Assignment5\Mbstu.Product\Mbstu.Product.Framwork\bin\Debug\netcoreapp3.1\Mbstu.Product.Framwork.deps.json
+H:\ASPDotNetMVC\Assignment5\Mbstu.Product\Mbstu.Product.Framwork\bin\Debug\netcoreapp3.1\Mbstu.Product.Framwork.dll
+H:\ASPDotNetMVC\Assignment5\Mbstu.Product\Mbstu.Product.Framwork\bin\Debug\netcoreapp3.1\Mbstu.Product.Framwork.pdb
+H:\ASPDotNetMVC\Assignment5\Mbstu.Product\Mbstu.Product.Framwork\obj\Debug\netcoreapp3.1\Mbstu.Product.Framwork.csprojAssemblyReference.cache
+H:\ASPDotNetMVC\Assignment5\Mbstu.Product\Mbstu.Product.Framwork\obj\Debug\netcoreapp3.1\Mbstu.Product.Framwork.AssemblyInfoInputs.cache
+H:\ASPDotNetMVC\Assignment5\Mbstu.Product\Mbstu.Product.Framwork\obj\Debug\netcoreapp3.1\Mbstu.Product.Framwork.AssemblyInfo.cs
+H:\ASPDotNetMVC\Assignment5\Mbstu.Product\Mbstu.Product.Framwork\obj\Debug\netcoreapp3.1\Mbstu.Product.Framwork.dll
+H:\ASPDotNetMVC\Assignment5\Mbstu.Product\Mbstu.Product.Framwork\obj\Debug\netcoreapp3.1\Mbstu.Product.Framwork.pdb
