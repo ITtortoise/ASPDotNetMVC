@@ -38,30 +38,7 @@ namespace Mbstu.Product.Data
             return result;
         }
 
-        public IList<T> GetProductList(int pageIndex, int pageSize, string orderby, string searchText)
-        {
-            string query = "exec [spGetProducts] " + pageIndex + ", " + pageSize + ", '" + orderby + "', '" + searchText + "' ";
-           
-            var result = new List<T>();
-            var command = new SqlCommand(query, _sqlConnection);
-            var reader = command.ExecuteReader();
-
-            while (reader.Read())
-            {
-                var itemType = typeof(T);
-                var constructor = itemType.GetConstructor(new Type[] { });
-                var instance = constructor.Invoke(new object[] { });
-                var properties = itemType.GetProperties();
-                foreach (var property in properties)
-                {
-                    property.SetValue(instance, reader[property.Name]);
-                }
-
-                result.Add((T)instance);
-            }
-            return result;
-        }
-
+     
         public void Dispose()
         {
             if (_sqlConnection != null)
