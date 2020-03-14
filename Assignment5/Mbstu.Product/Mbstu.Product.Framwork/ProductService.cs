@@ -20,19 +20,17 @@ namespace Mbstu.Product.Framwork
              int pageSize, string searchText, string sortText)
         {
             using var dbProvider = new SqlServerDataProvider<Product>(_connectionString);
-            //var filteredProducts = dbProvider.GetProductList(pageIndex,pageSize,sortText,searchText);
-            //dbProvider.Dispose();
-            //using var dbProvider1 = new SqlServerDataProvider<Product>(_connectionString);
-            var Products = dbProvider.GetData("Select * from Products");
-            var filteredProducts = Products.Where(x => x.Name.Contains(searchText)
-                || x.Description.Contains(searchText));
+            var products = dbProvider.GetData("spGetProducts", new List<(string, object, bool)>
+            {
+                ("PageIndex", pageIndex, false),
+                ("PageSize", pageSize , false),
+                ("SearchText", searchText , false),
+                ("OrderBy", sortText, false),
+                ( "Total", 0, true),
+                ( "TotalDisplay", 0, true)
+            });
 
-            var filteredProductsCount = Products.Count();
-            var totalProducts = Products.Count();
-
-            var filteredProductsList = filteredProducts.Skip((pageIndex - 1) * pageSize).Take(pageSize).ToList();
-
-            return (filteredProductsList, totalProducts, filteredProductsCount);
+            return (products.result, products.total, products.totalDisplay);
         }
     }
 }

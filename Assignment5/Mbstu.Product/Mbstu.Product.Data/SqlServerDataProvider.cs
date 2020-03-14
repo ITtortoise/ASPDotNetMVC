@@ -15,30 +15,49 @@ namespace Mbstu.Product.Data
             _sqlConnection.Open();
         }
 
-        public IList<T> GetData(string sql)
+        public (IList<T> result, int total, int totalDisplay) GetData(string procedureName,
+               IList<(string key, object value, bool isOut)> parameters)
         {
             var result = new List<T>();
 
-            var command = new SqlCommand(sql, _sqlConnection);
+            var command = new SqlCommand(procedureName, _sqlConnection);
+            command.CommandType = System.Data.CommandType.StoredProcedure;
 
-            var reader = command.ExecuteReader();
-            while (reader.Read())
+            foreach (var param in parameters)
             {
-                var itemType = typeof(T);
-                var constructor = itemType.GetConstructor(new Type[] { });
-                var instance = constructor.Invoke(new object[] { });
-                var properties = itemType.GetProperties();
-                foreach (var property in properties)
-                {
-                    property.SetValue(instance, reader[property.Name]);
-                }
-
-                result.Add((T)instance);
+                if (!param.isOut)
+                    command.Parameters.AddWithValue(param.key, param.value);
+                else
+                    command.Parameters.Add(new SqlParameter
+                    {
+                        Direction = System.Data.ParameterDirection.Output,
+                        ParameterName = param.key,
+                        SqlDbType = System.Data.SqlDbType.Int
+                    });
             }
-            return result;
-        }
 
-     
+            using (var reader = command.ExecuteReader())
+            {
+                while (reader.Read())
+                {
+                    var itemType = typeof(T);
+                    var constructor = itemType.GetConstructor(new Type[] { });
+                    var instance = constructor.Invoke(new object[] { });
+                    var properties = itemType.GetProperties();
+                    foreach (var property in properties)
+                    {
+                        property.SetValue(instance, reader[property.Name]);
+                    }
+
+                    result.Add((T)instance);
+                }
+            }
+
+            int total = (int)command.Parameters["Total"].Value;
+            var totalDisplay = (int)command.Parameters["TotalDisplay"].Value;
+
+            return (result, total, totalDisplay);
+        }
         public void Dispose()
         {
             if (_sqlConnection != null)
