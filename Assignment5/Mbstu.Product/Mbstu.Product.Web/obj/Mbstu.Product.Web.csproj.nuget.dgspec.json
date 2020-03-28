@@ -10,14 +10,11 @@
         "projectUniqueName": "H:\\ASPDotNetMVC\\Assignment5\\Mbstu.Product\\Mbstu.Product.Data\\Mbstu.Product.Data.csproj",
         "projectName": "Mbstu.Product.Data",
         "projectPath": "H:\\ASPDotNetMVC\\Assignment5\\Mbstu.Product\\Mbstu.Product.Data\\Mbstu.Product.Data.csproj",
-        "packagesPath": "C:\\Users\\ITtortoise\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Shohag_shadaf\\.nuget\\packages\\",
         "outputPath": "H:\\ASPDotNetMVC\\Assignment5\\Mbstu.Product\\Mbstu.Product.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ITtortoise\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Shohag_shadaf\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -71,14 +68,11 @@
         "projectUniqueName": "H:\\ASPDotNetMVC\\Assignment5\\Mbstu.Product\\Mbstu.Product.Framwork\\Mbstu.Product.Framwork.csproj",
         "projectName": "Mbstu.Product.Framwork",
         "projectPath": "H:\\ASPDotNetMVC\\Assignment5\\Mbstu.Product\\Mbstu.Product.Framwork\\Mbstu.Product.Framwork.csproj",
-        "packagesPath": "C:\\Users\\ITtortoise\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Shohag_shadaf\\.nuget\\packages\\",
         "outputPath": "H:\\ASPDotNetMVC\\Assignment5\\Mbstu.Product\\Mbstu.Product.Framwork\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ITtortoise\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Shohag_shadaf\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -120,7 +114,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -130,14 +124,11 @@
         "projectUniqueName": "H:\\ASPDotNetMVC\\Assignment5\\Mbstu.Product\\Mbstu.Product.Web\\Mbstu.Product.Web.csproj",
         "projectName": "Mbstu.Product.Web",
         "projectPath": "H:\\ASPDotNetMVC\\Assignment5\\Mbstu.Product\\Mbstu.Product.Web\\Mbstu.Product.Web.csproj",
-        "packagesPath": "C:\\Users\\ITtortoise\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Shohag_shadaf\\.nuget\\packages\\",
         "outputPath": "H:\\ASPDotNetMVC\\Assignment5\\Mbstu.Product\\Mbstu.Product.Web\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ITtortoise\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Shohag_shadaf\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -208,7 +199,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
