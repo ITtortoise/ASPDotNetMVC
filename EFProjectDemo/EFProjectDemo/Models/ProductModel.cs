@@ -30,5 +30,16 @@ namespace EFProjectDemo.Models
             context.SaveChanges();
          
         }
+        public void CreateCategory()
+        {
+            var context = Startup.AutofacContainer.Resolve<StoreContext>();
+            context.Categories.Add(new Category
+            {
+                Name = this.Name,
+            });
+
+            context.SaveChanges();
+
+        }
     }
 }

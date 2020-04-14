@@ -25,7 +25,7 @@ namespace EFProjectDemo.Controllers
         [HttpPost]
         public IActionResult Index(ProductModel model)
         {
-            model.CreateProduct();
+            model.CreateCategory();
             return View();
         }
         public IActionResult Privacy()
