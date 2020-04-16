@@ -1,0 +1,5 @@
+H:\ASPDotNetMVC\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Framwork\bin\Debug\netstandard2.0\MBSTU.OnlineCourse.Framwork.deps.json
+H:\ASPDotNetMVC\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Framwork\bin\Debug\netstandard2.0\MBSTU.OnlineCourse.Framwork.dll
+H:\ASPDotNetMVC\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Framwork\obj\Debug\netstandard2.0\MBSTU.OnlineCourse.Framwork.csprojAssemblyReference.cache
+H:\ASPDotNetMVC\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Framwork\obj\Debug\netstandard2.0\MBSTU.OnlineCourse.Framwork.AssemblyInfoInputs.cache
+H:\ASPDotNetMVC\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Framwork\obj\Debug\netstandard2.0\MBSTU.OnlineCourse.Framwork.AssemblyInfo.cs

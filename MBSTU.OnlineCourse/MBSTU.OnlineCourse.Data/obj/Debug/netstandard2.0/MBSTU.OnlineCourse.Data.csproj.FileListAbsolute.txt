@@ -1,0 +1,8 @@
+H:\ASPDotNetMVC\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Data\bin\Debug\netstandard2.0\MBSTU.OnlineCourse.Data.deps.json
+H:\ASPDotNetMVC\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Data\bin\Debug\netstandard2.0\MBSTU.OnlineCourse.Data.dll
+H:\ASPDotNetMVC\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Data\obj\Debug\netstandard2.0\MBSTU.OnlineCourse.Data.AssemblyInfoInputs.cache
+H:\ASPDotNetMVC\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Data\obj\Debug\netstandard2.0\MBSTU.OnlineCourse.Data.AssemblyInfo.cs
+H:\ASPDotNetMVC\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Data\bin\Debug\netstandard2.0\MBSTU.OnlineCourse.Data.pdb
+H:\ASPDotNetMVC\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Data\obj\Debug\netstandard2.0\MBSTU.OnlineCourse.Data.csprojAssemblyReference.cache
+H:\ASPDotNetMVC\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Data\obj\Debug\netstandard2.0\MBSTU.OnlineCourse.Data.dll
+H:\ASPDotNetMVC\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Data\obj\Debug\netstandard2.0\MBSTU.OnlineCourse.Data.pdb
