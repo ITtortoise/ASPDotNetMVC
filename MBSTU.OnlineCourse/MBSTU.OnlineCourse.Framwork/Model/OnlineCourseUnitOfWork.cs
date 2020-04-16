@@ -8,11 +8,13 @@ namespace MBSTU.OnlineCourse.Framework.Model
 {
     public class OnlineCourseUnitOfWork : UnitOfWork<FrameworkContext>, IOnlineCourseUnitOfWork
     {
-        public IStudentRepository CourseRepositroy { get; set; }
+        public IStudentRepository StudentRepositroy { get; set; }
+        public ICourseRepository CourseRepository { get; set; }
         public OnlineCourseUnitOfWork(string connectionString, string migrationAssemblyName)
             : base(connectionString, migrationAssemblyName)
         {
-            CourseRepositroy = new StudentRepository(_dbContext);
+           StudentRepositroy = new StudentRepository(_dbContext);
+           CourseRepository = new CourseRepository (_dbContext );
         }
     }
 }

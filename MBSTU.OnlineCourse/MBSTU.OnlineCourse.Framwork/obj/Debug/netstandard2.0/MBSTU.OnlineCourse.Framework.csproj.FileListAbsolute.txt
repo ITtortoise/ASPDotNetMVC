@@ -8,5 +8,5 @@ H:\ASPDotNetMVC\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Framwork\obj\Debug\netstan
 H:\ASPDotNetMVC\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Framwork\obj\Debug\netstandard2.0\MBSTU.OnlineCourse.Framework.pdb
 H:\ASPDotNetMVC\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Framwork\bin\Debug\netstandard2.0\MBSTU.OnlineCourse.Data.dll
 H:\ASPDotNetMVC\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Framwork\bin\Debug\netstandard2.0\MBSTU.OnlineCourse.Data.pdb
-H:\ASPDotNetMVC\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Framwork\obj\Debug\netstandard2.0\MBSTU.OnlineCourse.Framework.csproj.CoreCompileInputs.cache
 H:\ASPDotNetMVC\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Framwork\obj\Debug\netstandard2.0\MBSTU.OnlineCourse.Framework.csproj.CopyComplete
+H:\ASPDotNetMVC\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Framwork\obj\Debug\netstandard2.0\MBSTU.OnlineCourse.Framework.csproj.CoreCompileInputs.cache

@@ -10,7 +10,7 @@ using System.Text;
 
 namespace MBSTU.OnlineCourse.Framework.Model
 {
-    public class FrameworkModule : System.Reflection.Module
+    public class FrameworkModule : Autofac.Module
     {
         private readonly string _connectionString;
         private readonly string _migrationAssemblyName;
@@ -23,15 +23,6 @@ namespace MBSTU.OnlineCourse.Framework.Model
 
         protected override void Load(ContainerBuilder builder)
         {
-            builder.RegisterType<SqlServerDataProvider<Student>>().As<ISqlServerDataProvider<Student>>()
-                   .WithParameter("connectionString", _connectionString)
-                   .WithParameter("migrationAssemblyName", _migrationAssemblyName)
-                   .InstancePerLifetimeScope();
-
-            builder.RegisterType<SqlServerDataProvider<Course>>().As<ISqlServerDataProvider<Course>>()
-                  .WithParameter("connectionString", _connectionString)
-                  .WithParameter("migrationAssemblyName", _migrationAssemblyName)
-                  .InstancePerLifetimeScope();
 
             builder.RegisterType<FrameworkContext>()
                    .WithParameter("connectionString", _connectionString)

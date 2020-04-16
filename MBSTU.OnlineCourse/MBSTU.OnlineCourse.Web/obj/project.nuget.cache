@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MeoSp/sPpJlIXmI5LCEI1mG1PcGU6AQQVf2FecxjfxGrPSOm697nueRT5ipPqjDOqkQz1mZFlhdyyWk6I7Vsug==",
+  "dgSpecHash": "LMnvlVx88SDQbfH14pLTUIj4ahyyErAtTajg8MarMkavb3GlapRvGUiTwvNuSk6Q80vLlXMaMGM2CBSNEjlLNw==",
   "success": true,
   "projectFilePath": "H:\\ASPDotNetMVC\\MBSTU.OnlineCourse\\MBSTU.OnlineCourse.Web\\MBSTU.OnlineCourse.Web.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Shohag_shadaf\\.nuget\\packages\\autofac\\5.1.2\\autofac.5.1.2.nupkg.sha512",
+    "C:\\Users\\Shohag_shadaf\\.nuget\\packages\\autofac\\5.0.0\\autofac.5.0.0.nupkg.sha512",
     "C:\\Users\\Shohag_shadaf\\.nuget\\packages\\autofac.extensions.dependencyinjection\\6.0.0\\autofac.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\Shohag_shadaf\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.3\\microsoft.aspnetcore.cryptography.internal.3.1.3.nupkg.sha512",
     "C:\\Users\\Shohag_shadaf\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.3\\microsoft.aspnetcore.cryptography.keyderivation.3.1.3.nupkg.sha512",
