@@ -35,19 +35,10 @@ namespace MBSTU.OnlineCourse.Framework.Class
                    .WithParameter("migrationAssemblyName", _migrationAssemblyName)
                    .InstancePerLifetimeScope();
 
-            builder.RegisterType<StudentRepository>().As<IStudentRepository>()
-                .InstancePerLifetimeScope();
-
             builder.RegisterType<StudentService>().As<IStudentService>()
                 .InstancePerLifetimeScope();
 
-            builder.RegisterType<CourseRepository>().As<ICourseRepository>()
-                .InstancePerLifetimeScope();
-
             builder.RegisterType<CourseService>().As<ICourseService>()
-                .InstancePerLifetimeScope();
-
-            builder.RegisterType<StudentRegistrationRepository>().As<IStudentRegistrationRepository>()
                 .InstancePerLifetimeScope();
 
             builder.RegisterType<StudentRegistrationService>().As<IStudentRegistrationService>()

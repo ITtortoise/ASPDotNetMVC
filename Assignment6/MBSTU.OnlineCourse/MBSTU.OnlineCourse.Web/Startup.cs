@@ -15,6 +15,8 @@ using Microsoft.Extensions.Hosting;
 using Autofac;
 using MBSTU.OnlineCourse.Framework.Interface;
 using MBSTU.OnlineCourse.Framework.Class;
+using MBSTU.OnlineCourse.Web.Models;
+using Autofac.Extensions.DependencyInjection;
 
 namespace MBSTU.OnlineCourse.Web
 {
@@ -40,11 +42,8 @@ namespace MBSTU.OnlineCourse.Web
             var connectionString = Configuration.GetConnectionString(connectionStringName);
             var migrationAssemblyName = typeof(Startup).Assembly.FullName;
 
-            builder.RegisterType<FrameworkContext>()
-                  .WithParameter("connectionString", connectionString)
-                  .WithParameter("migrationAssemblyName", migrationAssemblyName)
-                  .InstancePerLifetimeScope();
-
+            builder.RegisterModule(new FrameworkModule(connectionString, migrationAssemblyName));
+            builder.RegisterType<StudentModel>();
         }
 
         // This method gets called by the runtime. Use this method to add services to the container.
@@ -53,6 +52,7 @@ namespace MBSTU.OnlineCourse.Web
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
+
             var connectionStringName = "DefaultConnection";
             var connectionString = Configuration.GetConnectionString(connectionStringName);
             var migrationAssemblyName = typeof(Startup).Assembly.FullName;
@@ -69,6 +69,9 @@ namespace MBSTU.OnlineCourse.Web
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+
+            AutofacContainer = app.ApplicationServices.GetAutofacRoot();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -92,9 +95,11 @@ namespace MBSTU.OnlineCourse.Web
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=index}/{id?}");
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapControllerRoute(
+                    name: "areas",
+                    pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
-             
             });
         }
     }

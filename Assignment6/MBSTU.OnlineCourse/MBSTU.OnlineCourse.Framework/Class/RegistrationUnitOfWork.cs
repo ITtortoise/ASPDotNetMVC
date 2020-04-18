@@ -7,7 +7,7 @@ using System.Text;
 
 namespace MBSTU.OnlineCourse.Framework.Class
 {
-    public class RegistrationUnitOfWork : UnitOfWork<FrameworkContext>
+    public class RegistrationUnitOfWork : UnitOfWork<FrameworkContext> ,IRegistrationUnitOfWork
     {
         public IStudentRepository StudentRepository { get; set; }
         public ICourseRepository CourseRepository { get; set; }
