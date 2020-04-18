@@ -7,9 +7,7 @@ namespace MBSTU.OnlineCourse.Framework.Interface
 {
     public interface IStudentService
     {
-        (IList<Student> records, int total, int totalDisplay) GetStudents(int pageIndex,
-                                                                    int pageSize,
-                                                                    string searchText,
-                                                                    string sortText);
+         void AddNewStudent(Student student);
+         void UpDateStudentInfo(Student student);
     }
 }

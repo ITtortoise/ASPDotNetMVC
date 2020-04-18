@@ -8,16 +8,22 @@ namespace MBSTU.OnlineCourse.Framework.Class
 {
     public class StudentService : IStudentService
     {
-        private IRegistrationUnitOfWork _OnlineCourseUnitOfWork;
+        private IRegistrationUnitOfWork _repositoryUnitOfWork;
 
-        public StudentService(IRegistrationUnitOfWork OnlineCourseUnitOfWork)
+        public StudentService(IRegistrationUnitOfWork repositoryUnitOfWork)
         {
-            _OnlineCourseUnitOfWork = OnlineCourseUnitOfWork;
+            _repositoryUnitOfWork = repositoryUnitOfWork;
         }
 
-        public (IList<Student> records, int total, int totalDisplay) GetStudents(int pageIndex, int pageSize, string searchText, string sortText)
+        public void AddNewStudent(Student student)
         {
-            throw new NotImplementedException();
+            _repositoryUnitOfWork.StudentRepositroy.Add(student);
+            _repositoryUnitOfWork.Save();
+        }
+
+        public void UpDateStudentInfo(Student student)
+        {
+            
         }
     }
 }

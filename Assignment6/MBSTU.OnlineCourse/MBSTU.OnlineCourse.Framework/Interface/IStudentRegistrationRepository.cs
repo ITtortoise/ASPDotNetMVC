@@ -6,8 +6,8 @@ using System.Text;
 
 namespace MBSTU.OnlineCourse.Framework.Interface
 {
-    public interface IStudentRepository : IRepository<Student>
+    public interface IStudentRegistrationRepository : IRepository<StudentRegistration>
     {
-       
+
     }
 }
