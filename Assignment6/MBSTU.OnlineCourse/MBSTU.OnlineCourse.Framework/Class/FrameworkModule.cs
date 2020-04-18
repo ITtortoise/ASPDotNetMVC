@@ -30,22 +30,28 @@ namespace MBSTU.OnlineCourse.Framework.Class
                    .WithParameter("migrationAssemblyName", _migrationAssemblyName)
                    .InstancePerLifetimeScope();
 
-            //builder.RegisterType<OnlineCourseUnitOfWork>().As<IOnlineCourseUnitOfWork>()
-            //       .WithParameter("connectionString", _connectionString)
-            //       .WithParameter("migrationAssemblyName", _migrationAssemblyName)
-            //       .InstancePerLifetimeScope();
+            builder.RegisterType<RegistrationUnitOfWork>().As<IRegistrationUnitOfWork>()
+                   .WithParameter("connectionString", _connectionString)
+                   .WithParameter("migrationAssemblyName", _migrationAssemblyName)
+                   .InstancePerLifetimeScope();
 
-            //builder.RegisterType<StudentRepository>().As<IStudentRepository>()
-            //    .InstancePerLifetimeScope();
+            builder.RegisterType<StudentRepository>().As<IStudentRepository>()
+                .InstancePerLifetimeScope();
 
-            //builder.RegisterType<StudentService>().As<IStudentService>()
-            //    .InstancePerLifetimeScope();
+            builder.RegisterType<StudentService>().As<IStudentService>()
+                .InstancePerLifetimeScope();
 
-            //builder.RegisterType<CourseRepository>().As<ICourseRepository>()
-            //    .InstancePerLifetimeScope();
+            builder.RegisterType<CourseRepository>().As<ICourseRepository>()
+                .InstancePerLifetimeScope();
 
-            //builder.RegisterType<CourseService>().As<ICourseService>()
-            //    .InstancePerLifetimeScope();
+            builder.RegisterType<CourseService>().As<ICourseService>()
+                .InstancePerLifetimeScope();
+
+            builder.RegisterType<StudentRegistrationRepository>().As<IStudentRegistrationRepository>()
+                .InstancePerLifetimeScope();
+
+            builder.RegisterType<StudentRegistrationService>().As<IStudentRegistrationService>()
+                .InstancePerLifetimeScope();
 
             base.Load(builder);
         }

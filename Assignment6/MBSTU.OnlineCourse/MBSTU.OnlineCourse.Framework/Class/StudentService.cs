@@ -8,17 +8,17 @@ namespace MBSTU.OnlineCourse.Framework.Class
 {
     public class StudentService : IStudentService
     {
-        private IRegistrationUnitOfWork _repositoryUnitOfWork;
+        private IRegistrationUnitOfWork _registrationUnitOfWork;
 
-        public StudentService(IRegistrationUnitOfWork repositoryUnitOfWork)
+        public StudentService(IRegistrationUnitOfWork registrationUnitOfWork)
         {
-            _repositoryUnitOfWork = repositoryUnitOfWork;
+            _registrationUnitOfWork = registrationUnitOfWork;
         }
 
         public void AddNewStudent(Student student)
         {
-            _repositoryUnitOfWork.StudentRepositroy.Add(student);
-            _repositoryUnitOfWork.Save();
+            _registrationUnitOfWork.StudentRepository.Add(student);
+            _registrationUnitOfWork.Save();
         }
 
         public void UpDateStudentInfo(Student student)

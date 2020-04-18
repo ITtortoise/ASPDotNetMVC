@@ -8,6 +8,6 @@ namespace MBSTU.OnlineCourse.Framework.Interface
 {
     public interface ICourseRepository : IRepository<Course>
     {
-        IList<Course> GetNewCourses();
+        
     }
 }

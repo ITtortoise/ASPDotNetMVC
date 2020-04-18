@@ -15,9 +15,6 @@ namespace MBSTU.OnlineCourse.Framework.Class
             _OnlineCourseUnitOfWork = OnlineCourseUnitOfWork;
         }
 
-        public (IList<Course> records, int total, int totalDisplay) GetCourses(int pageIndex, int pageSize, string searchText, string sortText)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }

@@ -14,7 +14,7 @@ namespace MBSTU.OnlineCourse.Web.Models
         public string Name { get; set; }
         public DateTime DateOfBirth { get; set; }
 
-        public void CreateStudent()
+        public void NewStudent()
         {
             var student = new Student
             {

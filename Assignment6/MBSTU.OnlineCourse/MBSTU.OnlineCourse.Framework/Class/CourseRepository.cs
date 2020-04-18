@@ -16,9 +16,5 @@ namespace MBSTU.OnlineCourse.Framework.Class
 
         }
 
-        public IList<Course> GetNewCourses()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

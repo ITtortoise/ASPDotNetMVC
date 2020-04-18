@@ -55,7 +55,6 @@ H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\
 H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\MBSTU.OnlineCourse.Web.TagHelpers.output.cache
 H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\MBSTU.OnlineCourse.Web.RazorCoreGenerate.cache
 H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
-H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -160,3 +159,4 @@ H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\bin\Debug\
 H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\MBSTU.OnlineCourse.Web.csproj.CoreCompileInputs.cache
 H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\MBSTU.OnlineCourse.Web.MvcApplicationPartsAssemblyInfo.cs
 H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\MBSTU.OnlineCourse.Web.MvcApplicationPartsAssemblyInfo.cache
+H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\index.cshtml.g.cs

@@ -8,7 +8,8 @@ namespace MBSTU.OnlineCourse.Framework.Interface
 {
     public interface IRegistrationUnitOfWork : IUnitOfWork<FrameworkContext>
     {
-        IStudentRepository StudentRepositroy { get; set; }
+        IStudentRepository StudentRepository { get; set; }
         ICourseRepository CourseRepository { get; set; }
+        IStudentRegistrationRepository StudentRegistrationRepository { get; set; }
     }
 }
