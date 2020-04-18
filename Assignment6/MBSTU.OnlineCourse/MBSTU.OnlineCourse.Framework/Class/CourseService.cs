@@ -8,9 +8,9 @@ namespace MBSTU.OnlineCourse.Framework.Class
 {
     public class CourseService : ICourseService
     {
-        private IOnlineCourseUnitOfWork _OnlineCourseUnitOfWork;
+        private IRegistrationUnitOfWork _OnlineCourseUnitOfWork;
 
-        public CourseService(IOnlineCourseUnitOfWork OnlineCourseUnitOfWork)
+        public CourseService(IRegistrationUnitOfWork OnlineCourseUnitOfWork)
         {
             _OnlineCourseUnitOfWork = OnlineCourseUnitOfWork;
         }

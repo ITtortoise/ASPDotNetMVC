@@ -6,7 +6,7 @@ using System.Text;
 
 namespace MBSTU.OnlineCourse.Framework.Interface
 {
-    public interface IOnlineCourseUnitOfWork : IUnitOfWork<FrameworkContext>
+    public interface IRegistrationUnitOfWork : IUnitOfWork<FrameworkContext>
     {
         IStudentRepository StudentRepositroy { get; set; }
         ICourseRepository CourseRepository { get; set; }
