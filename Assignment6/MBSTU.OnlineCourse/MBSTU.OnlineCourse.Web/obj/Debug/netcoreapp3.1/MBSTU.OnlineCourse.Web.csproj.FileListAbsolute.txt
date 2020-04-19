@@ -160,3 +160,11 @@ H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\
 H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\MBSTU.OnlineCourse.Web.MvcApplicationPartsAssemblyInfo.cs
 H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\MBSTU.OnlineCourse.Web.MvcApplicationPartsAssemblyInfo.cache
 H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\index.cshtml.g.cs
+H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\Error.cshtml.g.cs
+H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
+H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_LoginPartial.cshtml.g.cs
+H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Student\index.cshtml.g.cs
+H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Student\Privacy.cshtml.g.cs
+H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
