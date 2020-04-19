@@ -7,6 +7,7 @@ namespace MBSTU.OnlineCourse.Framework.Interface
 {
     public interface ICourseService
     {
-       
+        void AddNewCourse(Course course);
+        void UpDateCourseInfo(Course course);
     }
 }

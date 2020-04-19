@@ -8,14 +8,30 @@ using Microsoft.Extensions.Logging;
 using MBSTU.OnlineCourse.Web.Models;
 using Microsoft.Extensions.Configuration;
 
-namespace MBSTU.OnlineCourse.Web.Controllers
+namespace MBSTU.OnlineCourse.Web.Areas.Admin.Controllers
 {
-    public class HomeController : Controller
+    [Area("Admin")]
+    public class CourseController : Controller
     {
+        private readonly ILogger<CourseController> _logger;
+
+        public CourseController(ILogger<CourseController> logger)
+        {
+            _logger = logger;
+        }
+
         public IActionResult Index()
         {
             return View();
         }
+
+        [HttpPost]
+        public IActionResult Index(CourseModel Model)
+        {
+            Model.NewCourse();
+            return View();
+        }
+
 
         public IActionResult Privacy()
         {

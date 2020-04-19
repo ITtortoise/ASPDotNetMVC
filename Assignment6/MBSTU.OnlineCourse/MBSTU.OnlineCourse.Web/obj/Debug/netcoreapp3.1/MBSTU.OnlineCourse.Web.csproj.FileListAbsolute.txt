@@ -168,3 +168,5 @@ H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\
 H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Student\Privacy.cshtml.g.cs
 H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
 H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Course\index.cshtml.g.cs
+H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Course\Privacy.cshtml.g.cs

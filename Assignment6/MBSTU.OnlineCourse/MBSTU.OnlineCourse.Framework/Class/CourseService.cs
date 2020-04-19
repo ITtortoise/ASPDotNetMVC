@@ -1,20 +1,28 @@
 ﻿using MBSTU.OnlineCourse.Framework.Entity;
 using MBSTU.OnlineCourse.Framework.Interface;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace MBSTU.OnlineCourse.Framework.Class
 {
     public class CourseService : ICourseService
     {
-        private IRegistrationUnitOfWork _OnlineCourseUnitOfWork;
+        private IRegistrationUnitOfWork _registrationUnitOfWork;
 
-        public CourseService(IRegistrationUnitOfWork OnlineCourseUnitOfWork)
+        public CourseService(IRegistrationUnitOfWork registrationUnitOfWork)
         {
-            _OnlineCourseUnitOfWork = OnlineCourseUnitOfWork;
+            _registrationUnitOfWork = registrationUnitOfWork;
         }
 
-        
+        public void AddNewCourse(Course course)
+        {
+            _registrationUnitOfWork.CourseRepository.Add(course);
+            _registrationUnitOfWork.Save();
+        }
+
+        public void UpDateCourseInfo(Course course)
+        {
+
+        }
+
     }
 }
