@@ -25,5 +25,18 @@ namespace MBSTU.OnlineCourse.Web.Models
             service.AddNewStudent(student);
 
         }
+        public void UpdateStudent(Student student)
+        {
+            
+            var service = Startup.AutofacContainer.Resolve<IStudentService>();
+            service.UpDateStudentInfo(student);
+
+        }
+
+        internal void DeleteStudent(int id)
+        {
+            var service = Startup.AutofacContainer.Resolve<IStudentService>();
+            service.DeleteStudentInfo(id);
+        }
     }
 }

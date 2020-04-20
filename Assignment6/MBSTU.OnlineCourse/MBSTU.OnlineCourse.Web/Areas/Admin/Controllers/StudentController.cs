@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using MBSTU.OnlineCourse.Web.Models;
 using Microsoft.Extensions.Configuration;
+using MBSTU.OnlineCourse.Framework.Entity;
 
 namespace MBSTU.OnlineCourse.Web.Controllers
 {
@@ -31,7 +32,25 @@ namespace MBSTU.OnlineCourse.Web.Controllers
             Model.NewStudent();
             return View();
         }
-
+        [HttpPut]
+        public IActionResult Index(String name ,DateTime dateTime)
+        {
+            var student = new Student
+            {
+                Name =name,
+                DateOfBirth = dateTime
+            };
+            var  Model = new StudentModel();
+            Model.UpdateStudent(student);
+            return View();
+        }
+        [HttpDelete]
+        public IActionResult Index(int id)
+        {
+            var Model = new StudentModel();
+            Model.DeleteStudent(id);
+            return View();
+        }
 
         public IActionResult Privacy()
         {

@@ -53,7 +53,7 @@
     </div>
     <h5>Update Course Information</h5>
     <div>
-        <form action="Course/Index" method="post">
+        <form action="Course/Index" method="put">
             <label for="Title">Title</label>
             <input type="text" name="Title" placeholder="Course name..">
 
@@ -69,9 +69,8 @@
     <h5>Delete Course Information</h5>
     <div>
         <form action="Course/Index" method="post">
-            <label for="Title">Title</label>
-            <input type="text" name="Title" placeholder="Course name..">
-
+            <label for="Id">Id</label>
+            <input type="text" name="Id" placeholder="Id..">
             <input type="submit" value="Submit">
         </form>
     </div>

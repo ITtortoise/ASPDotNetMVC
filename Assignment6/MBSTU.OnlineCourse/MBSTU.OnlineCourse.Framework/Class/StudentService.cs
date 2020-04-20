@@ -21,9 +21,17 @@ namespace MBSTU.OnlineCourse.Framework.Class
             _registrationUnitOfWork.Save();
         }
 
+        public void DeleteStudentInfo(int id)
+        {
+            _registrationUnitOfWork.StudentRepository.Remove(id);
+            _registrationUnitOfWork.Save();
+        }
+
         public void UpDateStudentInfo(Student student)
         {
-            
+            _registrationUnitOfWork.StudentRepository.Edit(student);
+            _registrationUnitOfWork.Save();
         }
+
     }
 }
