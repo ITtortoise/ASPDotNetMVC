@@ -20,21 +20,15 @@ namespace MBSTU.OnlineCourse.Web.Areas.Admin.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Insert()
         {
             return View();
         }
 
         [HttpPost]
-        public IActionResult Index(CourseModel Model)
+        public IActionResult Insert(CourseModel Model)
         {
             Model.NewCourse();
-            return View();
-        }
-
-
-        public IActionResult Privacy()
-        {
             return View();
         }
 

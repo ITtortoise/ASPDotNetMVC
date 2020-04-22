@@ -10,20 +10,11 @@ namespace MBSTU.OnlineCourse.Web.Models
 {
     public class StudentModel
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public DateTime DateOfBirth { get; set; }
+        
 
         public void NewStudent()
         {
-            var student = new Student
-            {
-                Name = this.Name,
-                DateOfBirth = this.DateOfBirth
-            };
-            var service = Startup.AutofacContainer.Resolve<IStudentService>();
-            service.AddNewStudent(student);
-
+          
         }
         public void UpdateStudent(Student student)
         {
@@ -33,10 +24,15 @@ namespace MBSTU.OnlineCourse.Web.Models
 
         }
 
-        internal void DeleteStudent(int id)
+        public void StudentGetById(int id)
         {
             var service = Startup.AutofacContainer.Resolve<IStudentService>();
-            service.DeleteStudentInfo(id);
+            service.StudentInfo(id);
+        }
+
+        public void DeleteStudent(int id)
+        {
+           
         }
     }
 }

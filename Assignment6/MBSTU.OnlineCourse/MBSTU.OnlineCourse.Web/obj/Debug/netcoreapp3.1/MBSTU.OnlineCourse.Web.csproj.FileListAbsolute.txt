@@ -164,9 +164,9 @@ H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\
 H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
 H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_LoginPartial.cshtml.g.cs
 H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Student\index.cshtml.g.cs
-H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Student\Privacy.cshtml.g.cs
 H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
 H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
-H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Course\index.cshtml.g.cs
-H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Course\Privacy.cshtml.g.cs
+H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Student\delete.cshtml.g.cs
+H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Student\update.cshtml.g.cs
+H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Course\Insert.cshtml.g.cs
+H:\ASPDotNetMVC\Assignment6\MBSTU.OnlineCourse\MBSTU.OnlineCourse.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Student\Insert.cshtml.g.cs

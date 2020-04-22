@@ -8,6 +8,8 @@ using Microsoft.Extensions.Logging;
 using MBSTU.OnlineCourse.Web.Models;
 using Microsoft.Extensions.Configuration;
 using MBSTU.OnlineCourse.Framework.Entity;
+using Autofac;
+using MBSTU.OnlineCourse.Framework.Interface;
 
 namespace MBSTU.OnlineCourse.Web.Controllers
 {
@@ -20,42 +22,32 @@ namespace MBSTU.OnlineCourse.Web.Controllers
         {
             _logger = logger;
         }
-
-        public IActionResult Index()
-        {
-            return View();
-        }
-
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public DateTime DateOfBirth { get; set; }
         [HttpPost]
-        public IActionResult Index(StudentModel Model)
-        {
-            Model.NewStudent();
-            return View();
-        }
-        [HttpPut]
-        public IActionResult Index(String name ,DateTime dateTime)
+        public IActionResult Insert()
         {
             var student = new Student
             {
-                Name =name,
-                DateOfBirth = dateTime
+                Name = this.Name,
+                DateOfBirth = this.DateOfBirth
             };
-            var  Model = new StudentModel();
-            Model.UpdateStudent(student);
+            var service = Startup.AutofacContainer.Resolve<IStudentService>();
+            service.AddNewStudent(student);
             return View();
         }
+       
+
         [HttpDelete]
-        public IActionResult Index(int id)
+        public IActionResult Delete()
         {
-            var Model = new StudentModel();
-            Model.DeleteStudent(id);
+            var service = Startup.AutofacContainer.Resolve<IStudentService>();
+            service.DeleteStudentInfo(this.Id);
             return View();
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

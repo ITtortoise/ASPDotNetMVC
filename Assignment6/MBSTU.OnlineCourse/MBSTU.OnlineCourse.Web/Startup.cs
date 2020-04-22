@@ -98,12 +98,17 @@ namespace MBSTU.OnlineCourse.Web
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapControllerRoute(
                     name: "Admin",
-                    pattern: "{area:exists}/{controller=Student}/{action=Index}/{id?}");
-                endpoints.MapRazorPages();
+                    pattern: "{area:exists}/{controller=Student}/{action=Insert}/{id?}");
+               
+                endpoints.MapControllerRoute(
+                    name: "Admin",
+                    pattern: "{area:exists}/{controller=Student}/{action=Delete}");
+
                 endpoints.MapControllerRoute(
                    name: "Admin",
-                   pattern: "{area:exists}/{controller=Course}/{action=Index}/{id?}");
-                endpoints.MapRazorPages();
+                   pattern: "{area:exists}/{controller=Course}/{action=Insert}");
+                
+
             });
         }
     }

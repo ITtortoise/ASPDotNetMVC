@@ -15,6 +15,10 @@ namespace MBSTU.OnlineCourse.Framework.Class
             _registrationUnitOfWork = registrationUnitOfWork;
         }
 
+        public void StudentInfo(int id)
+        {
+            _registrationUnitOfWork.StudentRepository.GetById(id);
+        }
         public void AddNewStudent(Student student)
         {
             _registrationUnitOfWork.StudentRepository.Add(student);

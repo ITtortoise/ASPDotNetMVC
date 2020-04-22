@@ -9,7 +9,8 @@ namespace MBSTU.OnlineCourse.Framework.Interface
     {
          void AddNewStudent(Student student);
          void UpDateStudentInfo(Student student);
-        void DeleteStudentInfo(int id);
+         void DeleteStudentInfo(int id);
+         void StudentInfo(int id);
     }
 }
 
