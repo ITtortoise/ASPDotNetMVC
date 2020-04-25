@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using MBSTU.OnlineCourse.Framework.Entity;
 using Autofac;
 using MBSTU.OnlineCourse.Framework.Interface;
+using MBSTU.OnlineCourse.Web.Areas.Admin.Models;
+using StudentModel = MBSTU.OnlineCourse.Web.Areas.Admin.Models.StudentModel;
 
 namespace MBSTU.OnlineCourse.Web.Controllers
 {
@@ -22,28 +24,17 @@ namespace MBSTU.OnlineCourse.Web.Controllers
         {
             _logger = logger;
         }
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public DateTime DateOfBirth { get; set; }
+       
         [HttpPost]
-        public IActionResult Insert()
+        public IActionResult Insert(StudentModel model)
         {
-            var student = new Student
-            {
-                Name = this.Name,
-                DateOfBirth = this.DateOfBirth
-            };
-            var service = Startup.AutofacContainer.Resolve<IStudentService>();
-            service.AddNewStudent(student);
+            model.NewStudent();
             return View();
         }
        
-
         [HttpDelete]
-        public IActionResult Delete()
+        public IActionResult Delete(int Id)
         {
-            var service = Startup.AutofacContainer.Resolve<IStudentService>();
-            service.DeleteStudentInfo(this.Id);
             return View();
         }
 

@@ -17,6 +17,7 @@ using MBSTU.OnlineCourse.Framework.Interface;
 using MBSTU.OnlineCourse.Framework.Class;
 using MBSTU.OnlineCourse.Web.Models;
 using Autofac.Extensions.DependencyInjection;
+using MBSTU.OnlineCourse.Web.Areas.Admin.Models;
 
 namespace MBSTU.OnlineCourse.Web
 {
@@ -102,11 +103,11 @@ namespace MBSTU.OnlineCourse.Web
                
                 endpoints.MapControllerRoute(
                     name: "Admin",
-                    pattern: "{area:exists}/{controller=Student}/{action=Delete}");
+                    pattern: "{area:exists}/{controller=Student}/{action=Delete}/{id?}");
 
                 endpoints.MapControllerRoute(
                    name: "Admin",
-                   pattern: "{area:exists}/{controller=Course}/{action=Insert}");
+                   pattern: "{area:exists}/{controller=Course}/{action=Insert}/{id?}");
                 
 
             });

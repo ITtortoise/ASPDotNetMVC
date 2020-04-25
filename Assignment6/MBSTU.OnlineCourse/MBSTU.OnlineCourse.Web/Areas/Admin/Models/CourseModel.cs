@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MBSTU.OnlineCourse.Web.Models
+namespace MBSTU.OnlineCourse.Web.Areas.Admin.Models
 {
     public class CourseModel
     {
@@ -21,7 +21,7 @@ namespace MBSTU.OnlineCourse.Web.Models
             {
                 Title = this.Title,
                 SeatCount = this.SeatCount,
-                Fee =this.Fee
+                Fee = this.Fee
             };
             var service = Startup.AutofacContainer.Resolve<ICourseService>();
             service.AddNewCourse(course);

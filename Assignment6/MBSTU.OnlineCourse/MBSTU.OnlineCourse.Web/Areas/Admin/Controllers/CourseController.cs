@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using MBSTU.OnlineCourse.Web.Models;
 using Microsoft.Extensions.Configuration;
+using MBSTU.OnlineCourse.Web.Areas.Admin.Models;
 
 namespace MBSTU.OnlineCourse.Web.Areas.Admin.Controllers
 {
@@ -31,6 +32,7 @@ namespace MBSTU.OnlineCourse.Web.Areas.Admin.Controllers
             Model.NewCourse();
             return View();
         }
+        
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
