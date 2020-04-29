@@ -24,7 +24,10 @@ namespace MBSTU.OnlineCourse.Web.Controllers
         {
             _logger = logger;
         }
-       
+        public IActionResult Insert()
+        {
+            return View();
+        }
         [HttpPost]
         public IActionResult Insert(StudentModel model)
         {
@@ -35,7 +38,7 @@ namespace MBSTU.OnlineCourse.Web.Controllers
         [HttpDelete]
         public IActionResult Delete(int Id)
         {
-            return View();
+            return Redirect("/Student/Insert");
         }
 
 
