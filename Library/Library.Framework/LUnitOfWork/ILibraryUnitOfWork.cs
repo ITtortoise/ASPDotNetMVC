@@ -1,6 +1,5 @@
 ﻿using Library.Data.BaseUnitOfWork;
 using Library.Framework.BookRepositories;
-using Library.Framework.StudentRegistrationRepositories;
 using Library.Framework.StudentRepositories;
 using System;
 using System.Collections.Generic;
@@ -12,7 +11,7 @@ namespace Library.Framework.LUnitOfWork
     {
         IStudentRepository StudentRepositroy { get; set; }
         IBookRepository BookRepositroy { get; set; }
-        IStudentRegistrationRepository StudentRegistrationRepository { get; set; }
+        //IStudentRegistrationRepository StudentRegistrationRepository { get; set; }
 
     }
 }

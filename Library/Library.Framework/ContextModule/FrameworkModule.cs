@@ -2,8 +2,6 @@
 using Library.Framework.BookRepositories;
 using Library.Framework.BookServices;
 using Library.Framework.LUnitOfWork;
-using Library.Framework.StudentRegistrationRepositories;
-using Library.Framework.StudentRegistrationServices;
 using Library.Framework.StudentRepositories;
 using Library.Framework.StudentServices;
 
@@ -41,13 +39,13 @@ namespace Library.Framework.ContextModule
 
             builder.RegisterType<StudentService>().As<IStudentService>()
                 .InstancePerLifetimeScope();
+           
 
+            //builder.RegisterType<StudentRegistrationRepository>().As<IStudentRegistrationRepository>()
+            //  .InstancePerLifetimeScope();
 
-            builder.RegisterType<StudentRegistrationRepository>().As<IStudentRegistrationRepository>()
-              .InstancePerLifetimeScope();
-
-            builder.RegisterType<StudentRegistrationService>().As<IStudentRegistrationService>()
-                .InstancePerLifetimeScope();
+            //builder.RegisterType<StudentRegistrationService>().As<IStudentRegistrationService>()
+            //    .InstancePerLifetimeScope();
 
             base.Load(builder);
         }

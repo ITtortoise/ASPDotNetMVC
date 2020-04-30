@@ -1,0 +1,9 @@
+H:\ASPDotNetMVC\MBSTU.OnlineShopping\MBSTU.OnlineShopping.Data\bin\Debug\netstandard2.0\MBSTU.OnlineShopping.Data.deps.json
+H:\ASPDotNetMVC\MBSTU.OnlineShopping\MBSTU.OnlineShopping.Data\bin\Debug\netstandard2.0\MBSTU.OnlineShopping.Data.dll
+H:\ASPDotNetMVC\MBSTU.OnlineShopping\MBSTU.OnlineShopping.Data\obj\Debug\netstandard2.0\MBSTU.OnlineShopping.Data.AssemblyInfoInputs.cache
+H:\ASPDotNetMVC\MBSTU.OnlineShopping\MBSTU.OnlineShopping.Data\obj\Debug\netstandard2.0\MBSTU.OnlineShopping.Data.AssemblyInfo.cs
+H:\ASPDotNetMVC\MBSTU.OnlineShopping\MBSTU.OnlineShopping.Data\obj\Debug\netstandard2.0\MBSTU.OnlineShopping.Data.csprojAssemblyReference.cache
+H:\ASPDotNetMVC\MBSTU.OnlineShopping\MBSTU.OnlineShopping.Data\bin\Debug\netstandard2.0\MBSTU.OnlineShopping.Data.pdb
+H:\ASPDotNetMVC\MBSTU.OnlineShopping\MBSTU.OnlineShopping.Data\obj\Debug\netstandard2.0\MBSTU.OnlineShopping.Data.csproj.CoreCompileInputs.cache
+H:\ASPDotNetMVC\MBSTU.OnlineShopping\MBSTU.OnlineShopping.Data\obj\Debug\netstandard2.0\MBSTU.OnlineShopping.Data.dll
+H:\ASPDotNetMVC\MBSTU.OnlineShopping\MBSTU.OnlineShopping.Data\obj\Debug\netstandard2.0\MBSTU.OnlineShopping.Data.pdb

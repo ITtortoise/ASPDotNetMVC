@@ -103,6 +103,9 @@ namespace Library.Web
                    name: "Admin",
                    pattern: "{area:exists}/{controller=Students}/{action=Index}/{id?}");
                 endpoints.MapControllerRoute(
+                   name: "Admin",
+                   pattern: "{area:exists}/{controller=Students}/{action=AddStudent}/{id?}");
+                endpoints.MapControllerRoute(
                     name: "Admin",
                     pattern: "{area:exists}/{controller=Books}/{action=Index}/{id?}");
                 endpoints.MapControllerRoute(

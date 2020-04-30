@@ -1,4 +1,4 @@
-﻿@model Library.Web.Areas.Admin.Models.BookModels.CreateBookModel
+﻿@model Library.Web.Areas.Admin.Models.StudentModels.CreateStudentModel
     <div class="content-wrapper">
         <!-- Content Header (Page header) -->
         <section class="content-header">
@@ -27,11 +27,11 @@
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body">
-                            <form action="/admin/Books/AddBook" method="post">
-                                <input type="text" name="Title" />
-                                <input type="text" name="Author" />
-                                <input type="text" name="Edition" />
-                                <input type="submit" value="Add Book" />
+                            <form action="/admin/Students/AddStudent" method="post">
+                                <input type="text" name="Name" />
+                                <input type="text" name="Department" />
+                                <input type="text" name="Session" />
+                                <input type="submit" value="Add Student" />
                             </form>
                         </div>
                         <!-- /.card-body -->
