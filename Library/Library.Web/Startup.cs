@@ -15,6 +15,8 @@ using Microsoft.Extensions.Hosting;
 using Autofac.Extensions.DependencyInjection;
 using Library.Framework.ContextModule;
 using Autofac;
+using Library.Web.Areas.Admin.Models.BookModels;
+using Library.Web.Areas.Admin.Models.StudentModels;
 
 namespace Library.Web
 {
@@ -42,7 +44,8 @@ namespace Library.Web
             var migrationAssemblyName = typeof(Startup).Assembly.FullName;
 
             builder.RegisterModule(new FrameworkModule(connectionString, migrationAssemblyName));
-            //builder.RegisterType<NewBooksModel>();
+            builder.RegisterType<BookModel>();
+            builder.RegisterType<StudentModel>();
         }
         #endregion
 

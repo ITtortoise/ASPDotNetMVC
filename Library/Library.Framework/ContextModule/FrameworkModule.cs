@@ -39,7 +39,7 @@ namespace Library.Framework.ContextModule
 
             builder.RegisterType<StudentService>().As<IStudentService>()
                 .InstancePerLifetimeScope();
-           
+            
 
             //builder.RegisterType<StudentRegistrationRepository>().As<IStudentRegistrationRepository>()
             //  .InstancePerLifetimeScope();
