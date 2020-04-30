@@ -1,0 +1,9 @@
+H:\ASPDotNetMVC\Library\Library.Data\bin\Debug\netstandard2.0\Library.Data.deps.json
+H:\ASPDotNetMVC\Library\Library.Data\bin\Debug\netstandard2.0\Library.Data.dll
+H:\ASPDotNetMVC\Library\Library.Data\obj\Debug\netstandard2.0\Library.Data.csprojAssemblyReference.cache
+H:\ASPDotNetMVC\Library\Library.Data\obj\Debug\netstandard2.0\Library.Data.AssemblyInfoInputs.cache
+H:\ASPDotNetMVC\Library\Library.Data\obj\Debug\netstandard2.0\Library.Data.AssemblyInfo.cs
+H:\ASPDotNetMVC\Library\Library.Data\bin\Debug\netstandard2.0\Library.Data.pdb
+H:\ASPDotNetMVC\Library\Library.Data\obj\Debug\netstandard2.0\Library.Data.dll
+H:\ASPDotNetMVC\Library\Library.Data\obj\Debug\netstandard2.0\Library.Data.pdb
+H:\ASPDotNetMVC\Library\Library.Data\obj\Debug\netstandard2.0\Library.Data.csproj.CoreCompileInputs.cache
