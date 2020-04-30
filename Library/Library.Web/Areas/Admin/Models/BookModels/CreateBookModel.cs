@@ -11,6 +11,7 @@ namespace Library.Web.Areas.Admin.Models.BookModels
     {
         public string Title { get; set; }
         public string Author { get; set; }
+        public DateTime PublicationDate { get; set; }
         public string Edition { get; set; }
 
         public CreateBookModel(IBookService bookService) : base(bookService) { }
@@ -22,8 +23,9 @@ namespace Library.Web.Areas.Admin.Models.BookModels
             {
                 Title = this.Title,
                 Author = this.Author,
-                Edition = this.Edition,
-                PublicationDate = DateTime.Now
+                PublicationDate = DateTime.Now,
+                Edition = this.Edition
+                
             };
 
             _bookService.CreateBook(book);

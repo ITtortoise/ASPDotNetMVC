@@ -48,7 +48,7 @@ namespace Library.Framework.ContextModule
 
         public DbSet<Book> Books { get; set; }
         public DbSet<Student> Students { get; set; }
-        public DbSet<StudentRegistration> Registrations { get; set; }
+        //public DbSet<StudentRegistration> Registrations { get; set; }
 
     }
 }

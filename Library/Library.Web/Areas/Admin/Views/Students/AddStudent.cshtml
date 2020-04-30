@@ -1,46 +1,69 @@
 ﻿@model Library.Web.Areas.Admin.Models.StudentModels.CreateStudentModel
-    <div class="content-wrapper">
-        <!-- Content Header (Page header) -->
-        <section class="content-header">
-            <div class="container-fluid">
-                <div class="row mb-2">
-                    <div class="col-sm-6">
-                        <h1>DataTables</h1>
-                    </div>
-                    <div class="col-sm-6">
-                        <ol class="breadcrumb float-sm-right">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item active">DataTables</li>
-                        </ol>
-                    </div>
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>New Book</h1>
                 </div>
-            </div><!-- /.container-fluid -->
-        </section>
-
-        <!-- Main content -->
-        <section class="content">
-            <div class="row">
-                <div class="col-12">
-                    <div class="card">
-                        <div class="card-header">
-                            <h3 class="card-title">DataTable with default features</h3>
-                        </div>
-                        <!-- /.card-header -->
-                        <div class="card-body">
-                            <form action="/admin/Students/AddStudent" method="post">
-                                <input type="text" name="Name" />
-                                <input type="text" name="Department" />
-                                <input type="text" name="Session" />
-                                <input type="submit" value="Add Student" />
-                            </form>
-                        </div>
-                        <!-- /.card-body -->
-                    </div>
-                    <!-- /.card -->
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">New Book</li>
+                    </ol>
                 </div>
-                <!-- /.col -->
             </div>
-            <!-- /.row -->
-        </section>
-        <!-- /.content -->
-    </div>
+        </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Add a new book</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <form asp-area="Admin" asp-controller="Students" asp-action="AddStudent" method="post" class="form-horizontal">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="Name" class="col-md-2 control-label"></label>
+                            <div class="col-md-10">
+                                <input asp-for="Name" class="form-control" />
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Department" class="col-md-2 control-label"></label>
+                            <div class="col-md-10">
+                                <input asp-for="Department" class="form-control" />
+                                <span asp-validation-for="Department" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Session" class="col-md-2 control-label"></label>
+                            <div class="col-md-10">
+                                <input asp-for="Session" class="form-control" />
+                                <span asp-validation-for="Session" class="text-danger"></span>
+                            </div>
+                        </div>
+                       
+                        <div class="form-group">
+                            <div class="col-md-10">
+                                <input type="submit" class="btn btn-default" value="Submit" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+        </div>
+        <!-- /.col -->
+</div>
+<!-- /.row -->
+    </section>
+<!-- /.content -->
+</div>

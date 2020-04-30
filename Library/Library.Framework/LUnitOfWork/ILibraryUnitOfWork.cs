@@ -1,5 +1,6 @@
 ﻿using Library.Data.BaseUnitOfWork;
 using Library.Framework.BookRepositories;
+using Library.Framework.StudentRegistrationRepositories;
 using Library.Framework.StudentRepositories;
 using System;
 using System.Collections.Generic;

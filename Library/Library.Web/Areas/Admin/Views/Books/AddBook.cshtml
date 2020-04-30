@@ -1,47 +1,75 @@
 ﻿@model Library.Web.Areas.Admin.Models.BookModels.CreateBookModel
-    <div class="content-wrapper">
-        <!-- Content Header (Page header) -->
-        <section class="content-header">
-            <div class="container-fluid">
-                <div class="row mb-2">
-                    <div class="col-sm-6">
-                        <h1>DataTables</h1>
-                    </div>
-                    <div class="col-sm-6">
-                        <ol class="breadcrumb float-sm-right">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item active">DataTables</li>
-                        </ol>
-                    </div>
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>New Book</h1>
                 </div>
-            </div><!-- /.container-fluid -->
-        </section>
-
-        <!-- Main content -->
-        <section class="content">
-            <div class="row">
-                <div class="col-12">
-                    <div class="card">
-                        <div class="card-header">
-                            <h3 class="card-title">DataTable with default features</h3>
-                        </div>
-                        <!-- /.card-header -->
-                        <div class="card-body">
-                            <form action="/admin/Books/AddBook" method="post">
-                                <input type="text" name="Title" />
-                                <input type="text" name="Author" />
-                                <input type="text" name="PublicationDate" />
-                                <input type="text" name="Edition" />
-                                <input type="submit" value="AddBook" />
-                            </form>
-                        </div>
-                        <!-- /.card-body -->
-                    </div>
-                    <!-- /.card -->
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">New Book</li>
+                    </ol>
                 </div>
-                <!-- /.col -->
             </div>
-            <!-- /.row -->
-        </section>
-        <!-- /.content -->
-    </div>
+        </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Add a new book</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <form asp-area="Admin" asp-controller="Books" asp-action="AddBook" method="post" class="form-horizontal">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="Title" class="col-md-2 control-label"></label>
+                            <div class="col-md-10">
+                                <input asp-for="Title" class="form-control" />
+                                <span asp-validation-for="Title" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Author" class="col-md-2 control-label"></label>
+                            <div class="col-md-10">
+                                <input asp-for="Author" class="form-control" />
+                                <span asp-validation-for="Author" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="PublicationDate" class="col-md-2 control-label"></label>
+                            <div class="col-md-10">
+                                <input asp-for="PublicationDate" class="form-control" />
+                                <span asp-validation-for="PublicationDate" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Edition" class="col-md-2 control-label"></label>
+                            <div class="col-md-10">
+                                <input asp-for="Edition" class="form-control" />
+                                <span asp-validation-for="Edition" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-10">
+                                <input type="submit" class="btn btn-default" value="Submit" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+        </div>
+        <!-- /.col -->
+</div>
+<!-- /.row -->
+    </section>
+<!-- /.content -->
+</div>

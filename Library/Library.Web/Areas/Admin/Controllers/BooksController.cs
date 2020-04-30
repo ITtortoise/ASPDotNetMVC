@@ -35,7 +35,7 @@ namespace Library.Web.Areas.Admin.Controllers
         public IActionResult AddBook(CreateBookModel model)
         {
             model.Create();
-            return View(model);
+            return  RedirectToAction("Index");
         }
 
         public IActionResult GetBooks()
