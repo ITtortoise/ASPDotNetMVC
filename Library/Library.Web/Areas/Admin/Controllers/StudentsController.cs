@@ -39,7 +39,7 @@ namespace Library.Web.Areas.Admin.Controllers
         }
 
         public IActionResult GetStudents()
-        {
+          {
             var tableModel = new DataTablesAjaxRequestModel(Request);
             var model = Startup.AutofacContainer.Resolve<StudentModel>();
             var data = model.GetStudents(tableModel);

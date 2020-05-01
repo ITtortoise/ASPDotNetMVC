@@ -7,17 +7,17 @@ using System.Threading.Tasks;
 
 namespace Library.Web.Areas.Admin.Models.BookModels
 {
-    public class CreateBookModel : BookBaseModel
+    public class DeleteBookModel :BookBaseModel
     {
         public string Title { get; set; }
         public string Author { get; set; }
         public DateTime PublicationDate { get; set; }
         public string Edition { get; set; }
 
-        public CreateBookModel(IBookService bookService) : base(bookService) { }
-        public CreateBookModel() : base() { }
+        public DeleteBookModel(IBookService bookService) : base(bookService) { }
+        public DeleteBookModel() : base() { }
 
-        public void Create()
+        public void Delete()
         {
             var book = new Book
             {
@@ -28,7 +28,7 @@ namespace Library.Web.Areas.Admin.Models.BookModels
 
             };
 
-            _bookService.CreateBook(book);
+            _bookService.DeleteBook(book);
         }
     }
 }

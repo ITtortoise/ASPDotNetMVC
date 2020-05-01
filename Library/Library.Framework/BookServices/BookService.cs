@@ -21,6 +21,11 @@ namespace Library.Framework.BookServices
             _libraryUnitOfWork.Save();
         }
 
+        public void DeleteBook(Book book)
+        {
+            _libraryUnitOfWork.BookRepositroy.Remove(book);
+        }
+
         public void Dispose()
         {
             _libraryUnitOfWork?.Dispose();

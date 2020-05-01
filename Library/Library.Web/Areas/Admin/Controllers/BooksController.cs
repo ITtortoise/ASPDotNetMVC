@@ -37,7 +37,20 @@ namespace Library.Web.Areas.Admin.Controllers
             model.Create();
             return  RedirectToAction("Index");
         }
+        public IActionResult DeleteBook()
+        {
+            var model = new DeleteBookModel();
+            return View(model);
+        }
 
+        [HttpDelete]
+        public IActionResult DeleteBook(DeleteBookModel model)
+        {
+            model.Delete();
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
         public IActionResult GetBooks()
         {
             var tableModel = new DataTablesAjaxRequestModel(Request);

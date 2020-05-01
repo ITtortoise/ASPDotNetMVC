@@ -12,5 +12,6 @@ namespace Library.Framework.BookServices
                                                                     string searchText,
                                                                     string sortText);
         void CreateBook(Book book);
+        void DeleteBook(Book book);
     }
 }
