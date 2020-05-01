@@ -29,5 +29,7 @@ namespace Library.Web.Areas.Admin.Models.StudentModels
 
             _studentService.CreateStudent(student);
         }
+
+        
     }
 }

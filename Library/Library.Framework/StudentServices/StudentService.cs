@@ -21,6 +21,12 @@ namespace Library.Framework.StudentServices
             _libraryUnitOfWork.Save();
         }
 
+        public void DelStudent(int id)
+        {
+            _libraryUnitOfWork.StudentRepositroy.Remove(id);
+            _libraryUnitOfWork.Save();
+        }
+
         public void Dispose()
         {
             _libraryUnitOfWork?.Dispose();
@@ -30,6 +36,17 @@ namespace Library.Framework.StudentServices
         {
             var result = _libraryUnitOfWork.StudentRepositroy.GetAll().ToList();
             return (result, 0, 0);
+        }
+
+        public Student GetStudentsById(int id)
+        {
+           return _libraryUnitOfWork.StudentRepositroy.GetById(id);
+        }
+
+        public void updateStudent(Student updatestudent)
+        {
+            _libraryUnitOfWork.StudentRepositroy.Edit(updatestudent);
+            _libraryUnitOfWork.Save();
         }
     }
 }

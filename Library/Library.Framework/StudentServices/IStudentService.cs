@@ -12,5 +12,8 @@ namespace Library.Framework.StudentServices
                                                                     string searchText,
                                                                     string sortText);
         void CreateStudent(Student student);
+        void DelStudent(int Id);
+        void updateStudent(Student updatestudent);
+        Student GetStudentsById(int id);
     }
 }

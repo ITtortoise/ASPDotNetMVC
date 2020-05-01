@@ -37,6 +37,34 @@ namespace Library.Web.Areas.Admin.Controllers
             model.Create();
             return RedirectToAction("Index");
         }
+        public IActionResult DeleteStudent()
+        {
+            var model = new DeleteStudentModel();
+            return View(model);
+        }
+
+        [HttpPost]
+        public IActionResult DeleteStudent(int Id)
+        {
+            var model = new DeleteStudentModel();
+            model.Delete(Id);
+           // return View(model);
+            return RedirectToAction("Index");  
+        }
+        public IActionResult UpdateStudent()
+        {
+            var model = new UpdateStudentModel();
+            return View(model);
+        }
+
+        [HttpPost]
+        public IActionResult UpdateStudent(UpdateStudentModel model)
+        {
+
+            model.Modify();
+            // return View(model);
+            return RedirectToAction("Index");
+        }
 
         public IActionResult GetStudents()
           {
