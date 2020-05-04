@@ -10,13 +10,13 @@ namespace Library.Framework.LUnitOfWork
     {
         public IStudentRepository StudentRepositroy { get; set; }
         public IBookRepository BookRepositroy { get; set; }
-        //public IStudentRegistrationRepository StudentRegistrationRepository { get; set; }
-        public LibraryUnitOfWork(FrameworkContext context, IBookRepository bookRepositroy,IStudentRepository studentRepository)
+        public IStudentRegistrationRepository StudentRegistrationRepository { get; set; }
+        public LibraryUnitOfWork(FrameworkContext context, IBookRepository bookRepositroy,IStudentRepository studentRepository,IStudentRegistrationRepository studentRegistrationRepository)
             : base(context)
         {
             StudentRepositroy = studentRepository;
             BookRepositroy = bookRepositroy;
-            //StudentRegistrationRepository = studentRegistrationRepository;
+            StudentRegistrationRepository = studentRegistrationRepository;
         }
     }
 }

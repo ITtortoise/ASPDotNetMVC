@@ -31,8 +31,6 @@ namespace Library.Framework.ContextModule
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            builder.Entity<StudentRegistration>()
-                .HasKey(pc => new { pc.StudentId, pc.BookId });
 
             builder.Entity<StudentRegistration>()
                 .HasOne(pc => pc.Student)
@@ -48,7 +46,7 @@ namespace Library.Framework.ContextModule
 
         public DbSet<Book> Books { get; set; }
         public DbSet<Student> Students { get; set; }
-        //public DbSet<StudentRegistration> Registrations { get; set; }
+        public DbSet<StudentRegistration> Registrations { get; set; }
 
     }
 }

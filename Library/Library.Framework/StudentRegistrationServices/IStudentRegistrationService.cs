@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Library.Framework.StudentRegistrationServices
 {
-    public interface IStudentRegistrationService
+    public interface IStudentRegistrationService : IDisposable
     {
     }
 }

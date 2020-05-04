@@ -1,11 +1,13 @@
-﻿using System;
+﻿using Library.Data.BaseIEntity;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Library.Framework.Entity
 {
-    public class StudentRegistration
+    public class StudentRegistration : IEntity<int>
     {
+        public int Id { get; set; }
         public int StudentId { get; set; }
         public Student Student { get; set; }
         public int BookId { get; set; }

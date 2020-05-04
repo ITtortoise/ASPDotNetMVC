@@ -12,7 +12,7 @@ namespace Library.Framework.LUnitOfWork
     {
         IStudentRepository StudentRepositroy { get; set; }
         IBookRepository BookRepositroy { get; set; }
-        //IStudentRegistrationRepository StudentRegistrationRepository { get; set; }
+        IStudentRegistrationRepository StudentRegistrationRepository { get; set; }
 
     }
 }

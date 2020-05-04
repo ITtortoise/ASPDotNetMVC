@@ -43,11 +43,11 @@ namespace Library.Framework.ContextModule
                 .InstancePerLifetimeScope();
 
 
-            //builder.RegisterType<StudentRegistrationRepository>().As<IStudentRegistrationRepository>()
-            //  .InstancePerLifetimeScope();
+            builder.RegisterType<StudentRegistrationRepository>().As<IStudentRegistrationRepository>()
+              .InstancePerLifetimeScope();
 
-            //builder.RegisterType<StudentRegistrationService>().As<IStudentRegistrationService>()
-            //    .InstancePerLifetimeScope();
+            builder.RegisterType<StudentRegistrationService>().As<IStudentRegistrationService>()
+                .InstancePerLifetimeScope();
 
             base.Load(builder);
         }

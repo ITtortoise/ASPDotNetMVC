@@ -17,6 +17,7 @@ using Library.Framework.ContextModule;
 using Autofac;
 using Library.Web.Areas.Admin.Models.BookModels;
 using Library.Web.Areas.Admin.Models.StudentModels;
+using Library.Web.Areas.Admin.Models.RegistrationModels;
 
 namespace Library.Web
 {
@@ -46,6 +47,7 @@ namespace Library.Web
             builder.RegisterModule(new FrameworkModule(connectionString, migrationAssemblyName));
             builder.RegisterType<BookModel>();
             builder.RegisterType<StudentModel>();
+            builder.RegisterType<RegistrationModel>();
            
         }
         #endregion
