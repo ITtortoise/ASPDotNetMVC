@@ -104,12 +104,6 @@ namespace Library.Web
                    name: "Admin",
                    pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}");
                 endpoints.MapControllerRoute(
-                   name: "Admin",
-                   pattern: "{area:exists}/{controller=Students}/{action=Index}/{id?}");
-                endpoints.MapControllerRoute(
-                    name: "Admin",
-                    pattern: "{area:exists}/{controller=Books}/{action=Index}/{id?}");
-                endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
