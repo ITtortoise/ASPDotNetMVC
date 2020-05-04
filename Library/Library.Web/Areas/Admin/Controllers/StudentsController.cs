@@ -35,7 +35,8 @@ namespace Library.Web.Areas.Admin.Controllers
         public IActionResult AddStudent(CreateStudentModel model)
         {
             model.Create();
-            return RedirectToAction("Index");
+            return View(model);
+           // return RedirectToAction("Index");
         }
         public IActionResult DeleteStudent()
         {
@@ -62,8 +63,8 @@ namespace Library.Web.Areas.Admin.Controllers
         {
 
             model.Modify();
-            // return View(model);
-            return RedirectToAction("Index");
+             return View(model);
+            //return RedirectToAction("Index");
         }
 
         public IActionResult GetStudents()

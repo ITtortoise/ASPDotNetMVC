@@ -35,6 +35,7 @@ namespace Library.Web.Areas.Admin.Controllers
         public IActionResult AddBook(CreateBookModel model)
         {
             model.Create();
+            //return View(model);
             return  RedirectToAction("Index");
         }
         public IActionResult DeleteBook()
@@ -43,12 +44,29 @@ namespace Library.Web.Areas.Admin.Controllers
             return View(model);
         }
 
-        [HttpDelete]
-        public IActionResult DeleteBook(DeleteBookModel model)
+        [HttpPost]
+        public IActionResult DeleteBook(int Id)
         {
-            model.Delete();
+            var model = new DeleteBookModel();
+            model.Delete(Id);
+           // return View(model);
             return RedirectToAction("Index");
         }
+        public IActionResult UpdateBook()
+        {
+            var model = new UpdateBookModel();
+            return View(model);
+        }
+
+        [HttpPost]
+        public IActionResult UpdateBook(UpdateBookModel model)
+        {
+
+            model.Modify();
+            //return View(model);
+            return RedirectToAction("Index");
+        }
+
 
         [HttpGet]
         public IActionResult GetBooks()

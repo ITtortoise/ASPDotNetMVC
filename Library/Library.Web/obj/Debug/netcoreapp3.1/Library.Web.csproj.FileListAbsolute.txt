@@ -177,3 +177,4 @@ H:\ASPDotNetMVC\Library\Library.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Vi
 H:\ASPDotNetMVC\Library\Library.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Books\DeleteBook.cshtml.g.cs
 H:\ASPDotNetMVC\Library\Library.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Students\DeleteStudent.cshtml.g.cs
 H:\ASPDotNetMVC\Library\Library.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Students\UpdateStudent.cshtml.g.cs
+H:\ASPDotNetMVC\Library\Library.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Books\UpdateBook.cshtml.g.cs

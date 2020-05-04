@@ -21,9 +21,10 @@ namespace Library.Framework.BookServices
             _libraryUnitOfWork.Save();
         }
 
-        public void DeleteBook(Book book)
+        public void DelBook(int Id)
         {
-            _libraryUnitOfWork.BookRepositroy.Remove(book);
+            _libraryUnitOfWork.BookRepositroy.Remove(Id);
+            _libraryUnitOfWork.Save();
         }
 
         public void Dispose()
@@ -35,6 +36,16 @@ namespace Library.Framework.BookServices
         {
             var result = _libraryUnitOfWork.BookRepositroy.GetAll().ToList();
             return (result, 0, 0);
+        }
+        public Book GetBooksById(int id)
+        {
+            return _libraryUnitOfWork.BookRepositroy.GetById(id);
+        }
+
+        public void updateBook(Book updatebook)
+        {
+            _libraryUnitOfWork.BookRepositroy.Edit(updatebook);
+            _libraryUnitOfWork.Save();
         }
     }
 }

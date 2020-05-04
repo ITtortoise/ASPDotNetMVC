@@ -12,6 +12,8 @@ namespace Library.Framework.BookServices
                                                                     string searchText,
                                                                     string sortText);
         void CreateBook(Book book);
-        void DeleteBook(Book book);
+        void DelBook(int id);
+        Book GetBooksById(int id);
+        void updateBook(Book updatebook);
     }
 }
