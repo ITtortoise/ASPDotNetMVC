@@ -42,6 +42,8 @@ namespace Library.Web.Migrations
                 name: "Registrations",
                 columns: table => new
                 {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     StudentId = table.Column<int>(nullable: false),
                     BookId = table.Column<int>(nullable: false),
                     BorrowDate = table.Column<DateTime>(nullable: false),
@@ -49,7 +51,7 @@ namespace Library.Web.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Registrations", x => new { x.StudentId, x.BookId });
+                    table.PrimaryKey("PK_Registrations", x => x.Id);
                     table.ForeignKey(
                         name: "FK_Registrations_Books_BookId",
                         column: x => x.BookId,
@@ -68,6 +70,11 @@ namespace Library.Web.Migrations
                 name: "IX_Registrations_BookId",
                 table: "Registrations",
                 column: "BookId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Registrations_StudentId",
+                table: "Registrations",
+                column: "StudentId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

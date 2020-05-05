@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Library.Web.Migrations
 {
     [DbContext(typeof(FrameworkContext))]
-    [Migration("20200429181909_InitialCreate")]
+    [Migration("20200505041547_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -68,8 +68,10 @@ namespace Library.Web.Migrations
 
             modelBuilder.Entity("Library.Framework.Entity.StudentRegistration", b =>
                 {
-                    b.Property<int>("StudentId")
-                        .HasColumnType("int");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<int>("BookId")
                         .HasColumnType("int");
@@ -80,9 +82,14 @@ namespace Library.Web.Migrations
                     b.Property<bool>("IsReturnComplete")
                         .HasColumnType("bit");
 
-                    b.HasKey("StudentId", "BookId");
+                    b.Property<int>("StudentId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
 
                     b.HasIndex("BookId");
+
+                    b.HasIndex("StudentId");
 
                     b.ToTable("Registrations");
                 });
