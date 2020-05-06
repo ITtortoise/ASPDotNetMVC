@@ -15,5 +15,6 @@ namespace Library.Framework.StudentServices
         void DelStudent(int Id);
         void updateStudent(Student updatestudent);
         Student GetStudentsById(int id);
+        IList<Student> GetAllStudent();
     }
 }

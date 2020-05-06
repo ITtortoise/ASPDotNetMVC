@@ -32,6 +32,11 @@ namespace Library.Framework.StudentServices
             _libraryUnitOfWork?.Dispose();
         }
 
+        public IList<Student> GetAllStudent()
+        {
+            return _libraryUnitOfWork.StudentRepositroy.GetAll();
+        }
+
         public (IList<Student> records, int total, int totalDisplay) GetStudents(int pageIndex, int pageSize, string searchText, string sortText)
         {
             var result = _libraryUnitOfWork.StudentRepositroy.GetAll().ToList();

@@ -7,6 +7,7 @@ namespace Library.Web.Areas.Admin.Models.RegistrationModels
 {
     public class CreateRegistrationModel :RegistrationBaseModel
     {
+        public string StudentName { get; set; }
         public int StudentId { get; set; }
         public int BookId { get; set; }
         public DateTime BorrowDate { get; set; }

@@ -1,0 +1,17 @@
+﻿
+<div class="row">
+    <div class="form-group col-md-4">
+        <label class="control-label">Student Name  </label>
+        <select name="StudentName" class=" form-control" style="width: 100%;">
+            <option disabled selected> Please Select an Student Name  </option>
+            @foreach (var item in ViewBag.StudentName)
+            {
+                <option value="@item.Id">@item.Name</option>
+            }
+        </select>
+    </div>
+    <div class="form-group col-md-4">
+        <label class="control-label">Date  </label>
+        <input type="datetime" name="" />
+    </div>
+</div>
