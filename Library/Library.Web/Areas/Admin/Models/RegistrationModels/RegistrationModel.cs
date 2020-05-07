@@ -16,7 +16,7 @@ namespace Library.Web.Areas.Admin.Models.RegistrationModels
                 tableModel.PageIndex,
                 tableModel.PageSize,
                 tableModel.SearchText,
-                tableModel.GetSortText(new string[] { "StudentId", "BookId", "BorrowDate", "IsReturnComplete" }));
+                tableModel.GetSortText(new string[] {"Id", "StudentId", "BookId", "BorrowDate", "IsReturnComplete" }));
 
             return new
             {
@@ -25,6 +25,7 @@ namespace Library.Web.Areas.Admin.Models.RegistrationModels
                 data = (from record in data.records
                         select new string[]
                         {
+                                record.Id.ToString(),
                                 record.StudentId.ToString(),
                                 record.BookId.ToString(),
                                 record.BorrowDate.ToString(),
