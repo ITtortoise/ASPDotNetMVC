@@ -1,4 +1,5 @@
 ﻿using Library.Framework.Entity;
+using Library.Framework.StudentServices;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,7 @@ namespace Library.Web.Areas.Admin.Models.RegistrationModels
 {
     public class CreateRegistrationModel :RegistrationBaseModel
     {
+      
         public int StudentId { get; set; }
         public int BookId { get; set; }
         public DateTime BorrowDate { get; set; }
@@ -16,6 +18,7 @@ namespace Library.Web.Areas.Admin.Models.RegistrationModels
 
         public  void AddNew()
         {
+          
            var newRecord = new StudentRegistration
            {
                StudentId =this.StudentId,

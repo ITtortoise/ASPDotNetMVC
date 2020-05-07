@@ -30,20 +30,20 @@
                         <div class="form-group">
                             <label asp-for="StudentId" class="col-md-2 control-label"></label>
                             <select name="StudentId" class=" form-control" style="width: 100%;">
-                                <option disabled selected> Please Select an Student Id </option>
-                                @foreach (var item in ViewBag.StudentId)
+                                <option disabled selected> Please Select an Student Name </option>
+                                @foreach (var item in ViewBag.Students)
                                 {
-                                    <option value="@item">@item.Id</option>
+                                    <option value="@item.Id">@item.Name</option>
                                 }
                             </select>
                         </div>
                         <div class="form-group">
                             <label asp-for="BookId" class="col-md-2 control-label"></label>
                             <select name="BookId" class=" form-control" style="width: 100%;">
-                                <option disabled selected> Please Select an Book Id </option>
-                                @foreach (var item in ViewBag.BookId)
+                                <option disabled selected> Please Select an Book Name </option>
+                                @foreach (var item in ViewBag.Books)
                                 {
-                                    <option value="@item">@item.Id</option>
+                                    <option value="@item.Id">@item.Title</option>
                                 }
                             </select>
                         </div>

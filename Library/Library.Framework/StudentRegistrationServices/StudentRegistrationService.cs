@@ -2,6 +2,7 @@
 using Library.Framework.LUnitOfWork;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Library.Framework.StudentRegistrationServices
@@ -24,6 +25,12 @@ namespace Library.Framework.StudentRegistrationServices
         public void Dispose()
         {
             _libraryUnitOfWork?.Dispose();
+        }
+
+        public (IList<StudentRegistration> records, int total, int totalDisplay) GetRecords(int pageIndex, int pageSize, string searchText, string sortText)
+        {
+            var result = _libraryUnitOfWork.StudentRegistrationRepository.GetAll().ToList();
+            return (result, 0, 0);
         }
     }
 }

@@ -7,6 +7,7 @@ using Library.Framework.BookRepositories;
 using Library.Framework.BookServices;
 using Library.Framework.Entity;
 using Library.Framework.StudentServices;
+using Library.Web.Areas.Admin.Models;
 using Library.Web.Areas.Admin.Models.RegistrationModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -34,8 +35,8 @@ namespace Library.Web.Areas.Admin.Controllers
         public IActionResult AddRegistration()
         {
             var model = new CreateRegistrationModel();
-            ViewBag.StudentId = _studentService.GetAllStudent();
-            ViewBag.BookId = _bookService.GetAllBook();
+            ViewBag.Students = _studentService.GetAllStudent();
+            ViewBag.Books = _bookService.GetAllBook();
             return View(model);
         }
         [HttpPost]
@@ -45,6 +46,15 @@ namespace Library.Web.Areas.Admin.Controllers
                 model.AddNew();
                 return RedirectToAction("Index");
                         
+        }
+
+        [HttpGet]
+        public IActionResult GetRecords()
+        {
+            var tableModel = new DataTablesAjaxRequestModel(Request);
+            var model = Startup.AutofacContainer.Resolve<RegistrationModel>();
+            var data = model.GetRecords(tableModel);
+            return Json(data);
         }
 
     }

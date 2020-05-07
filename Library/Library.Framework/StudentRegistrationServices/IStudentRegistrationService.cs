@@ -7,6 +7,12 @@ namespace Library.Framework.StudentRegistrationServices
 {
     public interface IStudentRegistrationService : IDisposable
     {
+        
+        (IList<StudentRegistration> records, int total, int totalDisplay) GetRecords(int pageIndex,
+                                                                  int pageSize,
+                                                                  string searchText,
+                                                                  string sortText);
         void AddNewRecord(StudentRegistration newRecord);
+
     }
 }
