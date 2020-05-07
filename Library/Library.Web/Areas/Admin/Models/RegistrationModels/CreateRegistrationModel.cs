@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Library.Framework.Entity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 
 namespace Library.Web.Areas.Admin.Models.RegistrationModels
@@ -14,7 +16,15 @@ namespace Library.Web.Areas.Admin.Models.RegistrationModels
 
         public  void AddNew()
         {
-           
+           var newRecord = new StudentRegistration
+           {
+               StudentId =this.StudentId,
+               BookId= this.BookId,
+               BorrowDate =this.BorrowDate,
+               IsReturnComplete = this.IsReturnComplete
+
+           };
+            _registrationService.AddNewRecord(newRecord);
         }
     }
 }
