@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Autofac;
+using Library.Framework.BookRepositories;
+using Library.Framework.BookServices;
 using Library.Framework.Entity;
 using Library.Framework.StudentServices;
 using Library.Web.Areas.Admin.Models.RegistrationModels;
@@ -16,10 +18,12 @@ namespace Library.Web.Areas.Admin.Controllers
     {
         private readonly IConfiguration _configuration;
         private readonly IStudentService _studentService;
-        public RegistrationsController(IConfiguration configuration,IStudentService studentService)
+        private readonly IBookService _bookService;
+        public RegistrationsController(IConfiguration configuration,IStudentService studentService,IBookService bookService)
         {
             _configuration = configuration;
             _studentService = studentService;
+            _bookService = bookService;
         }
 
         public IActionResult Index()
@@ -30,7 +34,8 @@ namespace Library.Web.Areas.Admin.Controllers
         public IActionResult AddRegistration()
         {
             var model = new CreateRegistrationModel();
-            ViewBag.StudentName = _studentService.GetAllStudent();
+            ViewBag.StudentId = _studentService.GetAllStudent();
+            ViewBag.BookId = _bookService.GetAllBook();
             return View(model);
         }
         [HttpPost]

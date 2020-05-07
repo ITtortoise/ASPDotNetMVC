@@ -1,17 +1,83 @@
-﻿
-<div class="row">
-    <div class="form-group col-md-4">
-        <label class="control-label">Student Name  </label>
-        <select name="StudentName" class=" form-control" style="width: 100%;">
-            <option disabled selected> Please Select an Student Name  </option>
-            @foreach (var item in ViewBag.StudentName)
-            {
-                <option value="@item.Id">@item.Name</option>
-            }
-        </select>
-    </div>
-    <div class="form-group col-md-4">
-        <label class="control-label">Date  </label>
-        <input type="datetime" name="" />
-    </div>
+﻿@model Library.Web.Areas.Admin.Models.RegistrationModels.CreateRegistrationModel
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>New Record</h1>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">New Record</li>
+                    </ol>
+                </div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Add new Record</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <form asp-area="Admin" asp-controller="Registrations" asp-action="AddRegistration" method="post" class="form-horizontal">
+                        <div class="form-group">
+                            <label asp-for="StudentId" class="col-md-2 control-label"></label>
+                            <select name="StudentId" class=" form-control" style="width: 100%;">
+                                <option disabled selected> Please Select an Student Id </option>
+                                @foreach (var item in ViewBag.StudentId)
+                                {
+                                    <option value="@item">@item.Id</option>
+                                }
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="BookId" class="col-md-2 control-label"></label>
+                            <select name="BookId" class=" form-control" style="width: 100%;">
+                                <option disabled selected> Please Select an Book Id </option>
+                                @foreach (var item in ViewBag.BookId)
+                                {
+                                    <option value="@item">@item.Id</option>
+                                }
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="BorrowDate" class="col-md-2 control-label"></label>
+                            <div class="col-md-10">
+                                <input asp-for="BorrowDate" class="form-control" />
+                                <span asp-validation-for="BorrowDate" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-form-label col-lg-4 required" asp-for="IsReturnComplete"></label>
+                            <div class="col-lg-8">
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input-styled" asp-for="IsReturnComplete">
+                                    </label>
+                                </div>
+                                <span asp-validation-for="IsReturnComplete" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-10">
+                                <input type="submit" class="btn btn-default" value="Submit" />
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+                <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+        </div>
+        <!-- /.col -->
+    </section>
+    <!-- /.content -->
 </div>

@@ -32,6 +32,12 @@ namespace Library.Framework.BookServices
             _libraryUnitOfWork?.Dispose();
         }
 
+        public IList<Book> GetAllBook()
+        {
+           return  _libraryUnitOfWork.BookRepositroy.GetAll();
+           
+        }
+
         public (IList<Book> records, int total, int totalDisplay) GetBooks(int pageIndex, int pageSize, string searchText, string sortText)
         {
             var result = _libraryUnitOfWork.BookRepositroy.GetAll().ToList();

@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Library.Web.Migrations
 {
     [DbContext(typeof(FrameworkContext))]
-    [Migration("20200505041547_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20200507035545_CreateTables")]
+    partial class CreateTables
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
