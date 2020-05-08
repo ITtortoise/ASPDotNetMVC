@@ -8,6 +8,6 @@ namespace Library.Web.Areas.Admin.Models
 {
     public class MenuModel
     {
-       // public IList<MenuItem> MenuItems { get; set; }
+       public IList<MenuItem> MenuItems { get; set; }
     }
 }
