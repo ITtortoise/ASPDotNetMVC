@@ -1,12 +1,5 @@
-H:\ASPDotNetMVC\GradeSystem\GradeSystem.Framework\bin\Debug\netstandard2.0\GradeSystem.Framework.deps.json
-H:\ASPDotNetMVC\GradeSystem\GradeSystem.Framework\bin\Debug\netstandard2.0\GradeSystem.Framework.dll
-H:\ASPDotNetMVC\GradeSystem\GradeSystem.Framework\obj\Debug\netstandard2.0\GradeSystem.Framework.csprojAssemblyReference.cache
-H:\ASPDotNetMVC\GradeSystem\GradeSystem.Framework\obj\Debug\netstandard2.0\GradeSystem.Framework.AssemblyInfoInputs.cache
-H:\ASPDotNetMVC\GradeSystem\GradeSystem.Framework\obj\Debug\netstandard2.0\GradeSystem.Framework.AssemblyInfo.cs
-H:\ASPDotNetMVC\GradeSystem\GradeSystem.Framework\bin\Debug\netstandard2.0\GradeSystem.Framework.pdb
-H:\ASPDotNetMVC\GradeSystem\GradeSystem.Framework\bin\Debug\netstandard2.0\GradeSystem.Data.dll
-H:\ASPDotNetMVC\GradeSystem\GradeSystem.Framework\bin\Debug\netstandard2.0\GradeSystem.Data.pdb
-H:\ASPDotNetMVC\GradeSystem\GradeSystem.Framework\obj\Debug\netstandard2.0\GradeSystem.Framework.csproj.CoreCompileInputs.cache
-H:\ASPDotNetMVC\GradeSystem\GradeSystem.Framework\obj\Debug\netstandard2.0\GradeSystem.Framework.csproj.CopyComplete
-H:\ASPDotNetMVC\GradeSystem\GradeSystem.Framework\obj\Debug\netstandard2.0\GradeSystem.Framework.dll
-H:\ASPDotNetMVC\GradeSystem\GradeSystem.Framework\obj\Debug\netstandard2.0\GradeSystem.Framework.pdb
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Framework\bin\Debug\netstandard2.0\GradeSystem.Framework.deps.json
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Framework\bin\Debug\netstandard2.0\GradeSystem.Framework.dll
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Framework\obj\Debug\netstandard2.0\GradeSystem.Framework.csprojAssemblyReference.cache
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Framework\obj\Debug\netstandard2.0\GradeSystem.Framework.AssemblyInfoInputs.cache
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Framework\obj\Debug\netstandard2.0\GradeSystem.Framework.AssemblyInfo.cs
