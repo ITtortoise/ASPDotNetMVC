@@ -1,0 +1,147 @@
+﻿@model  MenuModel
+    <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+            <!-- Add icons to the links using the .nav-icon class
+    with font-awesome or any other icon font library -->
+            <li class="nav-item has-treeview menu-open">
+                <a href="~/admin/dashboard/Index" class="nav-link active">
+                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                    <p>
+                        Dashboard
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+            </li>
+            @*@foreach (var item in Model.MenuItems)
+        {
+            <li class="nav-item has-treeview menu-open">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                    <p>
+                        @item.Title
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    @foreach (var subItem in item.Childs)
+                    {
+                        <li cl ass="nav-item">
+                            <a href="@subItem.Url" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>@subItem.Title</p>
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </li>
+        }*@  
+           
+                <li class="nav-item has-treeview menu-open">
+                    <a href="#" class="nav-link active">
+                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <p>
+                            Books Information
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="~/admin/Books/Index" class="nav-link active">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Books Available</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="~/admin/Books/AddBook" class="nav-link active">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Add Book Information</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="~/admin/Books/DeleteBook" class="nav-link active">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Delete Book Information</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="~/admin/Books/UpdateBook" class="nav-link active">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Update Book Information</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+          
+                <li class="nav-item has-treeview menu-open">
+                    <a href="#" class="nav-link active">
+                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <p>
+                            Students Information
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="~/admin/Students/Index" class="nav-link active">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Students List</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="~/admin/Students/AddStudent" class="nav-link active">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Add Student Information</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="~/admin/Students/DeleteStudent" class="nav-link active">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Delete Student Information</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="~/admin/Students/UpdateStudent" class="nav-link active">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Update Student Information</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+          
+                <li class="nav-item has-treeview menu-open">
+                    <a href="#" class="nav-link active">
+                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <p>
+                            BorrowAndReturnInformation
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="~/admin/Registrations/Index" class="nav-link active">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>All Records</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="~/admin/Registrations/AddRegistration" class="nav-link active">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Add New Record</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="~/admin/Registrations/DeleteRecord" class="nav-link active">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Delete Record</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="~/admin/Registrations/UpdateRecord" class="nav-link active">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Update Record</p>
+                            </a>
+                        </li>
+                        </ul>
+                </li>
+            </ul>
+    </nav>
