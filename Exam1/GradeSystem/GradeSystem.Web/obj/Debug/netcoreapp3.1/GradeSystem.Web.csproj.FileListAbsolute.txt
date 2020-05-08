@@ -151,9 +151,6 @@ H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\bin\Debug\netcoreapp3.1\ru\Mic
 H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\obj\Debug\netcoreapp3.1\GradeSystem.Web.csproj.CoreCompileInputs.cache
-H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\obj\Debug\netcoreapp3.1\GradeSystem.Web.MvcApplicationPartsAssemblyInfo.cs
-H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\obj\Debug\netcoreapp3.1\GradeSystem.Web.MvcApplicationPartsAssemblyInfo.cache
 H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Dashboard\Index.cshtml.g.cs
 H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
 H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs

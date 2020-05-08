@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "0eTGXq9Lo/1byOZnPwPtD4LZ99wg4opvMHoezUyD5PebZJMMegpGBbv6yipsOD6AFcmp0cI3ASdA9FU/2M+Wzg==",
+  "dgSpecHash": "bVySU2Y3q6mz6ToUSU5yEfBo/BUz/QfDDzQvox9Ge5YingRbcmJ53ta/b288ZITBEEN2VhyVBw4qZ7DhVi+XEg==",
   "success": true,
   "projectFilePath": "H:\\ASPDotNetMVC\\Exam1\\GradeSystem\\GradeSystem.Web\\GradeSystem.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Shohag_shadaf\\.nuget\\packages\\autofac\\5.0.0\\autofac.5.0.0.nupkg.sha512",
+    "C:\\Users\\Shohag_shadaf\\.nuget\\packages\\autofac.extensions.dependencyinjection\\6.0.0\\autofac.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\Shohag_shadaf\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.2\\microsoft.aspnetcore.cryptography.internal.3.1.2.nupkg.sha512",
     "C:\\Users\\Shohag_shadaf\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.2\\microsoft.aspnetcore.cryptography.keyderivation.3.1.2.nupkg.sha512",
     "C:\\Users\\Shohag_shadaf\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\3.1.2\\microsoft.aspnetcore.diagnostics.entityframeworkcore.3.1.2.nupkg.sha512",
