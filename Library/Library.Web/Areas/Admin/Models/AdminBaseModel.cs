@@ -21,11 +21,13 @@ namespace Library.Web.Areas.Admin.Models
                 {
                     new MenuItem
                     {
-                        Title = "Books",
+                        Title = "Books Information",
                         Childs = new List<MenuChildItem>
                         {
-                            new MenuChildItem{Title = "View Books",Url="/Admin/Books"},
-                            new MenuChildItem{Title = "Add Book",Url="/Admin/Books/AddBook"}
+                            new MenuChildItem{Title = "View Books List",Url="/Admin/Books/Index"},
+                            new MenuChildItem{Title = "Add Book Information",Url="/Admin/Books/AddBook"},
+                            new MenuChildItem{Title = "Delete Book Information",Url="/Admin/DeleteBook"},
+                            new MenuChildItem{Title = "Update Book's Information",Url="/Admin/Books/UpdateBook"}
                         }
                     }
                 }
