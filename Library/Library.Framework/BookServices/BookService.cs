@@ -17,6 +17,9 @@ namespace Library.Framework.BookServices
         }
         public void CreateBook(Book book)
         {
+            var count = _libraryUnitOfWork.BookRepositroy.GetCount(x => x.Title == book.Title);
+            if (count > 0)
+                throw new DuplicationException("Book title already exists", nameof(book.Title));
             _libraryUnitOfWork.BookRepositroy.Add(book);
             _libraryUnitOfWork.Save();
         }
