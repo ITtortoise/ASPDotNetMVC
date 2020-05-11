@@ -15,15 +15,11 @@ using Microsoft.Extensions.Hosting;
 using Autofac.Extensions.DependencyInjection;
 using Library.Framework.ContextModule;
 using Autofac;
-using Library.Web.Areas.Admin.Models.BookModels;
-using Library.Web.Areas.Admin.Models.StudentModels;
-using Library.Web.Areas.Admin.Models.RegistrationModels;
 
 namespace Library.Web
 {
     public class Startup
     {
-        #region Autofac Config
         public Startup(IWebHostEnvironment env)
         {
             var builder = new ConfigurationBuilder()
@@ -45,12 +41,8 @@ namespace Library.Web
             var migrationAssemblyName = typeof(Startup).Assembly.FullName;
 
             builder.RegisterModule(new FrameworkModule(connectionString, migrationAssemblyName));
-            builder.RegisterType<BookModel>();
-            builder.RegisterType<StudentModel>();
-            builder.RegisterType<RegistrationModel>();
-           
+            builder.RegisterModule(new WebModule(connectionString, migrationAssemblyName));
         }
-        #endregion
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -69,10 +61,16 @@ namespace Library.Web
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
-            services.AddControllersWithViews();
-            services.AddRazorPages();
+            services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromSeconds(10);
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+            });
 
-            // Autofac options
+            services.AddControllersWithViews();
+            services.AddHttpContextAccessor();
+            services.AddRazorPages();
             services.AddOptions();
         }
 
@@ -92,6 +90,7 @@ namespace Library.Web
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
@@ -99,15 +98,17 @@ namespace Library.Web
 
             app.UseAuthentication();
             app.UseAuthorization();
-
+            app.UseSession();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
-                   name: "Admin",
-                   pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}");
+                    name: "areas",
+                    pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}");
+
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+
                 endpoints.MapRazorPages();
             });
         }

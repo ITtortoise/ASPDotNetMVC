@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Autofac;
+using Library.Framework;
 using Library.Web.Areas.Admin.Models;
 using Library.Web.Areas.Admin.Models.BookModels;
 using Microsoft.AspNetCore.Mvc;
@@ -32,12 +33,34 @@ namespace Library.Web.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddBook(CreateBookModel model)
+        [ValidateAntiForgeryToken]
+        public IActionResult AddBook(
+            [Bind(nameof(CreateBookModel.Title),
+            nameof(CreateBookModel.Author),
+            nameof(CreateBookModel.Edition))] CreateBookModel model)
         {
-            model.Create();
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    model.Create();
+                    model.Response = new ResponseModel("Book creation successful.", ResponseType.Success);
+                    return RedirectToAction("Index");
+                }
+                catch (DuplicationException ex)
+                {
+                    model.Response = new ResponseModel(ex.Message, ResponseType.Failure);
+                    // error logger code
+                }
+                catch (Exception ex)
+                {
+                    model.Response = new ResponseModel("Book creation failued.", ResponseType.Failure);
+                    // error logger code
+                }
+            }
             return View(model);
-            //return  RedirectToAction("Index");
         }
+
         public IActionResult DeleteBook()
         {
             var model = new DeleteBookModel();

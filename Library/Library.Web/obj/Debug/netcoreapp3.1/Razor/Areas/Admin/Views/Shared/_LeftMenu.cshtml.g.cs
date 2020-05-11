@@ -33,8 +33,15 @@ using Library.Web.Areas.Admin.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "H:\ASPDotNetMVC\Library\Library.Web\Areas\Admin\Views\_ViewImports.cshtml"
+using Library.Web.Areas.Admin.Models.BookModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"08a042205f8563b60cf16ba3df85f07e094b56f4", @"/Areas/Admin/Views/Shared/_LeftMenu.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"abed5c9bd7fe25d8cf95d57649c12d026d377754", @"/Areas/Admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"dac09b751e211b5de038374d0fd6fad22b8add2b", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     public class Areas_Admin_Views_Shared__LeftMenu : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Library.Web.Areas.Admin.Models.MenuModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("href", new global::Microsoft.AspNetCore.Html.HtmlString("~/admin/dashboard/Index"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -69,7 +76,7 @@ using Library.Web.Areas.Admin.Models;
     with font-awesome or any other icon font library -->
             <li class=""nav-item has-treeview menu-open"">
                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "08a042205f8563b60cf16ba3df85f07e094b56f44454", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "08a042205f8563b60cf16ba3df85f07e094b56f44658", async() => {
                 WriteLiteral("\r\n                    <i class=\"nav-icon fas fa-tachometer-alt\"></i>\r\n                    <p>\r\n                        Dashboard\r\n                        <i class=\"right fas fa-angle-left\"></i>\r\n                    </p>\r\n                ");
             }
             );

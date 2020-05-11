@@ -149,9 +149,6 @@ H:\ASPDotNetMVC\Library\Library.Web\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAna
 H:\ASPDotNetMVC\Library\Library.Web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 H:\ASPDotNetMVC\Library\Library.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 H:\ASPDotNetMVC\Library\Library.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-H:\ASPDotNetMVC\Library\Library.Web\obj\Debug\netcoreapp3.1\Library.Web.csproj.CoreCompileInputs.cache
-H:\ASPDotNetMVC\Library\Library.Web\obj\Debug\netcoreapp3.1\Library.Web.MvcApplicationPartsAssemblyInfo.cs
-H:\ASPDotNetMVC\Library\Library.Web\obj\Debug\netcoreapp3.1\Library.Web.MvcApplicationPartsAssemblyInfo.cache
 H:\ASPDotNetMVC\Library\Library.Web\obj\Debug\netcoreapp3.1\Library.Web.Views.pdb
 H:\ASPDotNetMVC\Library\Library.Web\obj\Debug\netcoreapp3.1\Library.Web.dll
 H:\ASPDotNetMVC\Library\Library.Web\obj\Debug\netcoreapp3.1\Library.Web.pdb
@@ -174,8 +171,11 @@ H:\ASPDotNetMVC\Library\Library.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\net
 H:\ASPDotNetMVC\Library\Library.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Registrations\Index.cshtml.g.cs
 H:\ASPDotNetMVC\Library\Library.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Books\AddBook.cshtml.g.cs
 H:\ASPDotNetMVC\Library\Library.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Students\AddStudent.cshtml.g.cs
-H:\ASPDotNetMVC\Library\Library.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Books\DeleteBook.cshtml.g.cs
-H:\ASPDotNetMVC\Library\Library.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Students\DeleteStudent.cshtml.g.cs
 H:\ASPDotNetMVC\Library\Library.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Students\UpdateStudent.cshtml.g.cs
 H:\ASPDotNetMVC\Library\Library.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Books\UpdateBook.cshtml.g.cs
 H:\ASPDotNetMVC\Library\Library.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Registrations\AddRegistration.cshtml.g.cs
+H:\ASPDotNetMVC\Library\Library.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_ActionMessage.cshtml.g.cs
+H:\ASPDotNetMVC\Library\Library.Web\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+H:\ASPDotNetMVC\Library\Library.Web\obj\Debug\netcoreapp3.1\Library.Web.csproj.CoreCompileInputs.cache
+H:\ASPDotNetMVC\Library\Library.Web\obj\Debug\netcoreapp3.1\Library.Web.MvcApplicationPartsAssemblyInfo.cs
+H:\ASPDotNetMVC\Library\Library.Web\obj\Debug\netcoreapp3.1\Library.Web.MvcApplicationPartsAssemblyInfo.cache
