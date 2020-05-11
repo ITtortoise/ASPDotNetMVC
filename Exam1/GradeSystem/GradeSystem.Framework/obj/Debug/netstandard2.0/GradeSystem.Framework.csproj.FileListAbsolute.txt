@@ -6,3 +6,4 @@ H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Framework\obj\Debug\netstandard2.0
 H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Framework\bin\Debug\netstandard2.0\GradeSystem.Framework.pdb
 H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Framework\obj\Debug\netstandard2.0\GradeSystem.Framework.dll
 H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Framework\obj\Debug\netstandard2.0\GradeSystem.Framework.pdb
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Framework\obj\Debug\netstandard2.0\GradeSystem.Framework.csproj.CoreCompileInputs.cache
