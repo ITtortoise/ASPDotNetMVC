@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "mQb6P96x18d7ohuSn2FZKcn6l33bPQ7mvdYPClN07pPgtI4FNI28ue5uUUls47b1oKQMP/NRD+JTfIi+Q5U09A==",
+  "success": true,
+  "projectFilePath": "H:\\ASPDotNetMVC\\Exam1\\GradeSystem\\GradeSystem.Data\\GradeSystem.Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Shohag_shadaf\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Shohag_shadaf\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
