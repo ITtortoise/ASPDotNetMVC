@@ -4,7 +4,8 @@ using System.Text;
 
 namespace GradeSystem.Data
 {
-    interface IUnitOfWork
+    public interface IUnitOfWork : IDisposable
     {
+        void Save();
     }
 }

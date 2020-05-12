@@ -1,0 +1,9 @@
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Data\bin\Debug\netstandard2.0\GradeSystem.Data.deps.json
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Data\bin\Debug\netstandard2.0\GradeSystem.Data.dll
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Data\bin\Debug\netstandard2.0\GradeSystem.Data.pdb
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Data\obj\Debug\netstandard2.0\GradeSystem.Data.csprojAssemblyReference.cache
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Data\obj\Debug\netstandard2.0\GradeSystem.Data.AssemblyInfoInputs.cache
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Data\obj\Debug\netstandard2.0\GradeSystem.Data.AssemblyInfo.cs
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Data\obj\Debug\netstandard2.0\GradeSystem.Data.dll
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Data\obj\Debug\netstandard2.0\GradeSystem.Data.pdb
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Data\obj\Debug\netstandard2.0\GradeSystem.Data.csproj.CoreCompileInputs.cache

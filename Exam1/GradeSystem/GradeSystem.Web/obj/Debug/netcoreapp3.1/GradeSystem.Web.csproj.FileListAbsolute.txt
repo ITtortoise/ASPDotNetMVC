@@ -156,3 +156,13 @@ H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\obj\Debug\netcoreapp3.1\Razor\
 H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
 H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
 H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_LeftMenu.cshtml.g.cs
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\bin\Debug\netcoreapp3.1\Autofac.dll
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\obj\Debug\netcoreapp3.1\GradeSystem.Web.csproj.CoreCompileInputs.cache
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\obj\Debug\netcoreapp3.1\GradeSystem.Web.MvcApplicationPartsAssemblyInfo.cs
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\obj\Debug\netcoreapp3.1\GradeSystem.Web.MvcApplicationPartsAssemblyInfo.cache
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\bin\Debug\netcoreapp3.1\System.Linq.Dynamic.Core.dll
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\bin\Debug\netcoreapp3.1\GradeSystem.Data.dll
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\bin\Debug\netcoreapp3.1\GradeSystem.Framework.dll
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\bin\Debug\netcoreapp3.1\GradeSystem.Framework.pdb
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\bin\Debug\netcoreapp3.1\GradeSystem.Data.pdb
