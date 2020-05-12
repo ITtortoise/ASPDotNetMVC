@@ -12,9 +12,8 @@ namespace Library.Framework.BookServices
                                                                     string searchText,
                                                                     string sortText);
         void CreateBook(Book book);
-        void DelBook(int id);
-        Book GetBooksById(int id);
-        void updateBook(Book updatebook);       
-        IList<Book> GetAllBook();
+        void EditBook(Book book);
+        Book GetBook(int id);
+        void DeleteBook(int id);
     }
 }

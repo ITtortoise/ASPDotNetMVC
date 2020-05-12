@@ -26,14 +26,20 @@ namespace Library.Web.Areas.Admin.Models.BookModels
                 data = (from record in data.records
                         select new string[]
                         {
-                                record.Title,
-                                record.Author,
-                                record.Edition,
-                                record.PublicationDate.ToString()
+                            record.Title,
+                            record.Author,
+                            record.Edition,
+                            record.PublicationDate.ToString(),
+                            record.Id.ToString()
                         }
                     ).ToArray()
 
             };
+        }
+        internal void Delete(int id)
+        {
+            _bookService.DeleteBook(id);
+           
         }
     }
 }

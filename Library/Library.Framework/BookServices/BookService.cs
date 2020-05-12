@@ -24,10 +24,26 @@ namespace Library.Framework.BookServices
             _libraryUnitOfWork.Save();
         }
 
-        public void DelBook(int Id)
+        public void EditBook(Book book)
         {
-            _libraryUnitOfWork.BookRepositroy.Remove(Id);
+            var count = _libraryUnitOfWork.BookRepositroy.GetCount(x => x.Title == book.Title
+                    && x.Id != book.Id);
+
+            if (count > 0)
+                throw new DuplicationException("Book title already exists", nameof(book.Title));
+
+            var existingBook = _libraryUnitOfWork.BookRepositroy.GetById(book.Id);
+            existingBook.Author = book.Author;
+            existingBook.Edition = book.Edition;
+            existingBook.PublicationDate = book.PublicationDate;
+            existingBook.Title = book.Title;
+
             _libraryUnitOfWork.Save();
+        }
+
+        public Book GetBook(int id)
+        {
+            return _libraryUnitOfWork.BookRepositroy.GetById(id);
         }
 
         public void Dispose()
@@ -35,26 +51,19 @@ namespace Library.Framework.BookServices
             _libraryUnitOfWork?.Dispose();
         }
 
-        public IList<Book> GetAllBook()
-        {
-           return  _libraryUnitOfWork.BookRepositroy.GetAll();
-           
-        }
 
         public (IList<Book> records, int total, int totalDisplay) GetBooks(int pageIndex, int pageSize, string searchText, string sortText)
         {
             var result = _libraryUnitOfWork.BookRepositroy.GetAll().ToList();
             return (result, 0, 0);
         }
-        public Book GetBooksById(int id)
-        {
-            return _libraryUnitOfWork.BookRepositroy.GetById(id);
-        }
 
-        public void updateBook(Book updatebook)
+        public void DeleteBook(int id)
         {
-            _libraryUnitOfWork.BookRepositroy.Edit(updatebook);
+           //var book = _libraryUnitOfWork.BookRepositroy.GetById(id);
+            _libraryUnitOfWork.BookRepositroy.Remove(id);
             _libraryUnitOfWork.Save();
+            //return book;
         }
     }
 }

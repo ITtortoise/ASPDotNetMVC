@@ -60,34 +60,63 @@ namespace Library.Web.Areas.Admin.Controllers
             }
             return View(model);
         }
-
-        public IActionResult DeleteBook()
-        {
-            var model = new DeleteBookModel();
-            return View(model);
-        }
-
-        [HttpPost]
-        public IActionResult DeleteBook(int Id)
-        {
-            var model = new DeleteBookModel();
-            model.Delete(Id);
-            return View(model);
-            //return RedirectToAction("Index");
-        }
-        public IActionResult UpdateBook()
+        public IActionResult UpdateBook(int id)
         {
             var model = new UpdateBookModel();
+            model.Load(id);
             return View(model);
         }
 
         [HttpPost]
-        public IActionResult UpdateBook(UpdateBookModel model)
+        [ValidateAntiForgeryToken]
+        public IActionResult UpdateBook(
+            [Bind(nameof(UpdateBookModel.Id),
+            nameof(UpdateBookModel.Title),
+            nameof(UpdateBookModel.Author),
+            nameof(UpdateBookModel.Edition))] UpdateBookModel model)
         {
-
-            model.Modify();
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    model.Edit();
+                    model.Response = new ResponseModel("Book creation successful.", ResponseType.Success);
+                    return RedirectToAction("Index");
+                }
+                catch (DuplicationException ex)
+                {
+                    model.Response = new ResponseModel(ex.Message, ResponseType.Failure);
+                    // error logger code
+                }
+                catch (Exception ex)
+                {
+                    model.Response = new ResponseModel("Book creation failued.", ResponseType.Failure);
+                    // error logger code
+                }
+            }
             return View(model);
-           // return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeleteBook(int id)
+        {
+            if (ModelState.IsValid)
+            {
+                var model = new BookModel();
+                try
+                {
+                    model.Delete(id);
+                    model.Response = new ResponseModel($"Book successfully deleted.", ResponseType.Success);
+                    return RedirectToAction("Index");
+                }
+                catch (Exception ex)
+                {
+                    model.Response = new ResponseModel("Book delete failued.", ResponseType.Failure);
+                    // error logger code
+                }
+            }
+            return RedirectToAction("index");
         }
 
 
