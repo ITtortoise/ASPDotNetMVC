@@ -13,28 +13,51 @@
                 </a>
             </li>
             @foreach (var item in Model.MenuItems)
-        {
-            <li class="nav-item has-treeview menu-open">
-                <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-tachometer-alt"></i>
-                    <p>
-                        @item.Title
-                        <i class="right fas fa-angle-left"></i>
-                    </p>
-                </a>
-                <ul class="nav nav-treeview">
-                    @foreach (var subItem in item.Childs)
-                    {
-                        <li cl ass="nav-item">
-                            <a href="@subItem.Url" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>@subItem.Title</p>
-                            </a>
-                        </li>
-                    }
-                </ul>
-            </li>
-        }  
-           
-            </ul>
+            {
+                <li class="nav-item has-treeview menu-open">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <p>
+                            @item.Title
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        @foreach (var subItem in item.Childs)
+                        {
+                            <li cl ass="nav-item">
+                                <a href="@subItem.Url" class="nav-link">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>@subItem.Title</p>
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </li>
+            }
+            @foreach (var item in Model.MenuItems)
+            {
+                <li class="nav-item has-treeview menu-open">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <p>
+                            @item.Title2
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        @foreach (var subItem in item.Childs2)
+                        {
+                            <li cl ass="nav-item">
+                                <a href="@subItem.Url" class="nav-link">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>@subItem.Title</p>
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </li>
+            }
+
+        </ul>
     </nav>

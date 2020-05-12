@@ -8,5 +8,7 @@ namespace Library.Framework.MenuFiles
     {
         public string Title { get; set; }
         public IList<MenuChildItem> Childs { get; set; }
+        public string Title2 { get; set; }
+        public IList<MenuChildItem> Childs2 { get; set; }
     }
 }
