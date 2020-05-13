@@ -23,6 +23,9 @@
 
   <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Models\GradeModelFile\" />
+    <Folder Include="Areas\Admin\Models\SubjectModelFile\" />
+    <Folder Include="Areas\Admin\Models\StudentModelFile\" />
   </ItemGroup>
 
 

@@ -166,3 +166,4 @@ H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\bin\Debug\netcoreapp3.1\GradeS
 H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\bin\Debug\netcoreapp3.1\GradeSystem.Framework.dll
 H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\bin\Debug\netcoreapp3.1\GradeSystem.Framework.pdb
 H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\bin\Debug\netcoreapp3.1\GradeSystem.Data.pdb
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_ActionMessage.cshtml.g.cs
