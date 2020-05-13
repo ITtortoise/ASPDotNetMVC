@@ -1,4 +1,7 @@
 ﻿using Autofac;
+using GradeSystem.Web.Areas.Admin.Models.GradeModelFile;
+using GradeSystem.Web.Areas.Admin.Models.StudentModelFile;
+using GradeSystem.Web.Areas.Admin.Models.SubjectModelFile;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -18,9 +21,9 @@ namespace GradeSystem.Web
         }
         protected override void Load(ContainerBuilder builder)
         {
-            //builder.RegisterType<StudentModel>();
-            //builder.RegisterType<SubjectModel>();
-            //builder.RegisterType<GradeModel>();
+            builder.RegisterType<StudentModel>();
+            builder.RegisterType<SubjectModel>();
+            builder.RegisterType<GradeModel>();
 
             base.Load(builder);
         }

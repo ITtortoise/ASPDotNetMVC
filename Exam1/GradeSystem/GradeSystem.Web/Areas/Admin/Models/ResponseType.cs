@@ -5,7 +5,9 @@ using System.Threading.Tasks;
 
 namespace GradeSystem.Web.Areas.Admin.Models
 {
-    public class ResponseType
+    public enum ResponseType
     {
+        Success,
+        Failure
     }
 }

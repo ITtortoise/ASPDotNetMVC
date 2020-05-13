@@ -1,4 +1,7 @@
 ﻿using Autofac;
+using GradeSystem.Framework.RepositoryFile;
+using GradeSystem.Framework.ServiceFile;
+using GradeSystem.Framework.UnitOfWorkFile;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -23,27 +26,27 @@ namespace GradeSystem.Framework.ContextModule
                 .WithParameter("migrationAssemblyName", _migrationAssemblyName)
                 .InstancePerLifetimeScope();
 
-            //builder.RegisterType<ResultUnitOfWork>().As<IResultUnitOfWork>()
-            //    .InstancePerLifetimeScope();
+            builder.RegisterType<ResultUnitOfWork>().As<IResultUnitOfWork>()
+                .InstancePerLifetimeScope();
 
-            //builder.RegisterType<SubjectRepository>().As<ISubjectRepository>()
-            //    .InstancePerLifetimeScope();
+            builder.RegisterType<SubjectRepository>().As<ISubjectRepository>()
+                .InstancePerLifetimeScope();
 
-            //builder.RegisterType<SubjectService>().As<ISubjectService>()
-            //    .InstancePerLifetimeScope();
+            builder.RegisterType<SubjectService>().As<ISubjectService>()
+                .InstancePerLifetimeScope();
 
-            //builder.RegisterType<StudentRepository>().As<IStudentRepository>()
-            //   .InstancePerLifetimeScope();
+            builder.RegisterType<StudentRepository>().As<IStudentRepository>()
+               .InstancePerLifetimeScope();
 
-            //builder.RegisterType<StudentService>().As<IStudentService>()
-            //    .InstancePerLifetimeScope();
+            builder.RegisterType<StudentService>().As<IStudentService>()
+                .InstancePerLifetimeScope();
 
 
-            //builder.RegisterType<GradeRepository>().As<IGradeRepository>()
-            //  .InstancePerLifetimeScope();
+            builder.RegisterType<GradeRepository>().As<IGradeRepository>()
+              .InstancePerLifetimeScope();
 
-            //builder.RegisterType<GradeService>().As<IGradeService>()
-            //    .InstancePerLifetimeScope();
+            builder.RegisterType<GradeService>().As<IGradeService>()
+                .InstancePerLifetimeScope();
 
             base.Load(builder);
         }
