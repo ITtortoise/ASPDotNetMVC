@@ -40,8 +40,22 @@ using GradeSystem.Web.Areas.Admin.Models.StudentModelFile;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 5 "H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\Areas\Admin\Views\_ViewImports.cshtml"
+using GradeSystem.Web.Areas.Admin.Models.SubjectModelFile;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 6 "H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\Areas\Admin\Views\_ViewImports.cshtml"
+using GradeSystem.Web.Areas.Admin.Models.GradeModelFile;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a922e0d59fb8d19801d7e127a7b08dc639c15a3b", @"/Areas/Admin/Views/Dashboard/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"bf647f71616ff2d3dbfe90ced741ca8e7fef3443", @"/Areas/Admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a785671f533b68e00b98a2732c7f586da681ee39", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     public class Areas_Admin_Views_Dashboard_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<DashboardModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("action", new global::Microsoft.AspNetCore.Html.HtmlString("#"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -409,7 +423,7 @@ using GradeSystem.Web.Areas.Admin.Models.StudentModelFile;
                         <!-- /.card-body -->
                         <div class=""card-footer"">
                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a922e0d59fb8d19801d7e127a7b08dc639c15a3b23981", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a922e0d59fb8d19801d7e127a7b08dc639c15a3b24435", async() => {
                 WriteLiteral(@"
                                 <div class=""input-group"">
                                     <input type=""text"" name=""message"" placeholder=""Type Message ..."" class=""form-control"">

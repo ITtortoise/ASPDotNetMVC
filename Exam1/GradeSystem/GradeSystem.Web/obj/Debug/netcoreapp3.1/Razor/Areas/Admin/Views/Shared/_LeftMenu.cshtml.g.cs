@@ -40,8 +40,22 @@ using GradeSystem.Web.Areas.Admin.Models.StudentModelFile;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 5 "H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\Areas\Admin\Views\_ViewImports.cshtml"
+using GradeSystem.Web.Areas.Admin.Models.SubjectModelFile;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 6 "H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\Areas\Admin\Views\_ViewImports.cshtml"
+using GradeSystem.Web.Areas.Admin.Models.GradeModelFile;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c8fa65fef93529bd1dba029c327b6bfa48448754", @"/Areas/Admin/Views/Shared/_LeftMenu.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"bf647f71616ff2d3dbfe90ced741ca8e7fef3443", @"/Areas/Admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a785671f533b68e00b98a2732c7f586da681ee39", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     public class Areas_Admin_Views_Shared__LeftMenu : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<MenuModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("href", new global::Microsoft.AspNetCore.Html.HtmlString("~/admin/dashboard/Index"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -76,7 +90,7 @@ using GradeSystem.Web.Areas.Admin.Models.StudentModelFile;
     with font-awesome or any other icon font library -->
             <li class=""nav-item has-treeview menu-open"">
                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c8fa65fef93529bd1dba029c327b6bfa484487544719", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c8fa65fef93529bd1dba029c327b6bfa484487545173", async() => {
                 WriteLiteral("\r\n                    <i class=\"nav-icon fas fa-tachometer-alt\"></i>\r\n                    <p>\r\n                        Dashboard\r\n                        <i class=\"right fas fa-angle-left\"></i>\r\n                    </p>\r\n                ");
             }
             );

@@ -171,3 +171,6 @@ H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\bin\Debug\netcoreapp3.1\System
 H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Students\AddStudent.cshtml.g.cs
 H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Students\Index.cshtml.g.cs
 H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Students\EditStudent.cshtml.g.cs
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Subjects\AddSubject.cshtml.g.cs
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Subjects\Index.cshtml.g.cs
+H:\ASPDotNetMVC\Exam1\GradeSystem\GradeSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Subjects\EditSubject.cshtml.g.cs
