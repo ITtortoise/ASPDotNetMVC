@@ -65,5 +65,10 @@ namespace Library.Framework.BookServices
             _libraryUnitOfWork.Save();
             //return book;
         }
+
+        public IList<Book> GetAllBook()
+        {
+            return _libraryUnitOfWork.BookRepositroy.GetAll();
+        }
     }
 }

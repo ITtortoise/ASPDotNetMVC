@@ -36,7 +36,7 @@ namespace Library.Web.Areas.Admin.Controllers
         {
             var model = new CreateRegistrationModel();
             ViewBag.Students = _studentService.GetAllStudent();
-           // ViewBag.Books = _bookService.GetAllBook();
+            ViewBag.Books = _bookService.GetAllBook();
             return View(model);
         }
         [HttpPost]

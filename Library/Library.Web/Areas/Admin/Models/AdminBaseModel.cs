@@ -68,6 +68,12 @@ namespace Library.Web.Areas.Admin.Models
                             {
                                 new MenuChildItem{ Title = "View Students", Url = "/Admin/Students" },
                                 new MenuChildItem{ Title = "Add Student", Url ="/Admin/Students/AddStudent"}
+                            },
+                            Title3 = "Book Registration Information",
+                            Childs3 = new List<MenuChildItem>
+                            {
+                                new MenuChildItem{ Title = "View Records", Url = "/Admin/Registrations" },
+                                new MenuChildItem{ Title = "Add Record", Url ="/Admin/Registrations/AddRegistration"}
                             }
                         }
                     }
