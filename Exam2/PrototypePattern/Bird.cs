@@ -4,7 +4,10 @@ using System.Text;
 
 namespace PrototypePattern
 {
-    class Bird
+    public class Bird
     {
+        public string Name { get; set; }
+        public string Colour { get; set; }
+      
     }
 }
