@@ -1,0 +1,13 @@
+H:\ASPDotNetMVC\Exam2\Exam2\obj\Debug\netcoreapp3.1\Exam2.csprojAssemblyReference.cache
+H:\ASPDotNetMVC\Exam2\Exam2\obj\Debug\netcoreapp3.1\Exam2.AssemblyInfoInputs.cache
+H:\ASPDotNetMVC\Exam2\Exam2\obj\Debug\netcoreapp3.1\Exam2.AssemblyInfo.cs
+H:\ASPDotNetMVC\Exam2\Exam2\obj\Debug\netcoreapp3.1\Exam2.csproj.CoreCompileInputs.cache
+H:\ASPDotNetMVC\Exam2\Exam2\bin\Debug\netcoreapp3.1\Exam2.exe
+H:\ASPDotNetMVC\Exam2\Exam2\bin\Debug\netcoreapp3.1\Exam2.deps.json
+H:\ASPDotNetMVC\Exam2\Exam2\bin\Debug\netcoreapp3.1\Exam2.runtimeconfig.json
+H:\ASPDotNetMVC\Exam2\Exam2\bin\Debug\netcoreapp3.1\Exam2.runtimeconfig.dev.json
+H:\ASPDotNetMVC\Exam2\Exam2\bin\Debug\netcoreapp3.1\Exam2.dll
+H:\ASPDotNetMVC\Exam2\Exam2\bin\Debug\netcoreapp3.1\Exam2.pdb
+H:\ASPDotNetMVC\Exam2\Exam2\obj\Debug\netcoreapp3.1\Exam2.dll
+H:\ASPDotNetMVC\Exam2\Exam2\obj\Debug\netcoreapp3.1\Exam2.pdb
+H:\ASPDotNetMVC\Exam2\Exam2\obj\Debug\netcoreapp3.1\Exam2.genruntimeconfig.cache
