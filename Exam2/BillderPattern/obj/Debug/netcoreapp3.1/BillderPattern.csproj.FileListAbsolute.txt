@@ -1,0 +1,13 @@
+H:\ASPDotNetMVC\Exam2\BillderPattern\obj\Debug\netcoreapp3.1\BillderPattern.csprojAssemblyReference.cache
+H:\ASPDotNetMVC\Exam2\BillderPattern\obj\Debug\netcoreapp3.1\BillderPattern.AssemblyInfoInputs.cache
+H:\ASPDotNetMVC\Exam2\BillderPattern\obj\Debug\netcoreapp3.1\BillderPattern.AssemblyInfo.cs
+H:\ASPDotNetMVC\Exam2\BillderPattern\obj\Debug\netcoreapp3.1\BillderPattern.csproj.CoreCompileInputs.cache
+H:\ASPDotNetMVC\Exam2\BillderPattern\bin\Debug\netcoreapp3.1\BillderPattern.exe
+H:\ASPDotNetMVC\Exam2\BillderPattern\bin\Debug\netcoreapp3.1\BillderPattern.deps.json
+H:\ASPDotNetMVC\Exam2\BillderPattern\bin\Debug\netcoreapp3.1\BillderPattern.runtimeconfig.json
+H:\ASPDotNetMVC\Exam2\BillderPattern\bin\Debug\netcoreapp3.1\BillderPattern.runtimeconfig.dev.json
+H:\ASPDotNetMVC\Exam2\BillderPattern\bin\Debug\netcoreapp3.1\BillderPattern.dll
+H:\ASPDotNetMVC\Exam2\BillderPattern\bin\Debug\netcoreapp3.1\BillderPattern.pdb
+H:\ASPDotNetMVC\Exam2\BillderPattern\obj\Debug\netcoreapp3.1\BillderPattern.dll
+H:\ASPDotNetMVC\Exam2\BillderPattern\obj\Debug\netcoreapp3.1\BillderPattern.pdb
+H:\ASPDotNetMVC\Exam2\BillderPattern\obj\Debug\netcoreapp3.1\BillderPattern.genruntimeconfig.cache

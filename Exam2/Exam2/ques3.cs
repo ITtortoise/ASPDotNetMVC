@@ -6,11 +6,11 @@
 //{
 //    public class ques3
 //    {
-//       static void Main()
-//       {
+//        static void Main()
+//        {
 //            var time = Console.ReadLine();
 
 //            var res = time.Substring("am");
-//       }
+//        }
 //    }
 //}
