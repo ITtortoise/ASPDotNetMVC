@@ -1,0 +1,13 @@
+H:\ASPDotNetMVC\Exam2\PrototypePattern\bin\Debug\netcoreapp3.1\PrototypePattern.exe
+H:\ASPDotNetMVC\Exam2\PrototypePattern\bin\Debug\netcoreapp3.1\PrototypePattern.deps.json
+H:\ASPDotNetMVC\Exam2\PrototypePattern\bin\Debug\netcoreapp3.1\PrototypePattern.runtimeconfig.json
+H:\ASPDotNetMVC\Exam2\PrototypePattern\bin\Debug\netcoreapp3.1\PrototypePattern.runtimeconfig.dev.json
+H:\ASPDotNetMVC\Exam2\PrototypePattern\bin\Debug\netcoreapp3.1\PrototypePattern.dll
+H:\ASPDotNetMVC\Exam2\PrototypePattern\bin\Debug\netcoreapp3.1\PrototypePattern.pdb
+H:\ASPDotNetMVC\Exam2\PrototypePattern\obj\Debug\netcoreapp3.1\PrototypePattern.csprojAssemblyReference.cache
+H:\ASPDotNetMVC\Exam2\PrototypePattern\obj\Debug\netcoreapp3.1\PrototypePattern.AssemblyInfoInputs.cache
+H:\ASPDotNetMVC\Exam2\PrototypePattern\obj\Debug\netcoreapp3.1\PrototypePattern.AssemblyInfo.cs
+H:\ASPDotNetMVC\Exam2\PrototypePattern\obj\Debug\netcoreapp3.1\PrototypePattern.csproj.CoreCompileInputs.cache
+H:\ASPDotNetMVC\Exam2\PrototypePattern\obj\Debug\netcoreapp3.1\PrototypePattern.dll
+H:\ASPDotNetMVC\Exam2\PrototypePattern\obj\Debug\netcoreapp3.1\PrototypePattern.pdb
+H:\ASPDotNetMVC\Exam2\PrototypePattern\obj\Debug\netcoreapp3.1\PrototypePattern.genruntimeconfig.cache
