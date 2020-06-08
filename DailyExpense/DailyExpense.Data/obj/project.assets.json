@@ -1803,7 +1803,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Shohag_shadaf\\.nuget\\packages\\": {}
+    "C:\\Users\\Sohag\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -1811,11 +1811,11 @@
       "projectUniqueName": "H:\\ASPDotNetMVC\\DailyExpense\\DailyExpense.Data\\DailyExpense.Data.csproj",
       "projectName": "DailyExpense.Data",
       "projectPath": "H:\\ASPDotNetMVC\\DailyExpense\\DailyExpense.Data\\DailyExpense.Data.csproj",
-      "packagesPath": "C:\\Users\\Shohag_shadaf\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Sohag\\.nuget\\packages\\",
       "outputPath": "H:\\ASPDotNetMVC\\DailyExpense\\DailyExpense.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Shohag_shadaf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sohag\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1868,7 +1868,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
