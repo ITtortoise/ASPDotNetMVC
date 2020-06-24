@@ -1,0 +1,12 @@
+H:\ASPDotNetMVC\Library\Library.Framework\bin\Release\netstandard2.0\Library.Framework.deps.json
+H:\ASPDotNetMVC\Library\Library.Framework\bin\Release\netstandard2.0\Library.Framework.dll
+H:\ASPDotNetMVC\Library\Library.Framework\bin\Release\netstandard2.0\Library.Framework.pdb
+H:\ASPDotNetMVC\Library\Library.Framework\bin\Release\netstandard2.0\Library.Data.dll
+H:\ASPDotNetMVC\Library\Library.Framework\bin\Release\netstandard2.0\Library.Data.pdb
+H:\ASPDotNetMVC\Library\Library.Framework\obj\Release\netstandard2.0\Library.Framework.csprojAssemblyReference.cache
+H:\ASPDotNetMVC\Library\Library.Framework\obj\Release\netstandard2.0\Library.Framework.AssemblyInfoInputs.cache
+H:\ASPDotNetMVC\Library\Library.Framework\obj\Release\netstandard2.0\Library.Framework.AssemblyInfo.cs
+H:\ASPDotNetMVC\Library\Library.Framework\obj\Release\netstandard2.0\Library.Framework.csproj.CoreCompileInputs.cache
+H:\ASPDotNetMVC\Library\Library.Framework\obj\Release\netstandard2.0\Library.Framework.csproj.CopyComplete
+H:\ASPDotNetMVC\Library\Library.Framework\obj\Release\netstandard2.0\Library.Framework.dll
+H:\ASPDotNetMVC\Library\Library.Framework\obj\Release\netstandard2.0\Library.Framework.pdb

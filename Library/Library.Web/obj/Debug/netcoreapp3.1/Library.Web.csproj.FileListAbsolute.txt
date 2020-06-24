@@ -179,3 +179,7 @@ H:\ASPDotNetMVC\Library\Library.Web\bin\Debug\netcoreapp3.1\System.Text.Json.dll
 H:\ASPDotNetMVC\Library\Library.Web\obj\Debug\netcoreapp3.1\Library.Web.csproj.CoreCompileInputs.cache
 H:\ASPDotNetMVC\Library\Library.Web\obj\Debug\netcoreapp3.1\Library.Web.MvcApplicationPartsAssemblyInfo.cs
 H:\ASPDotNetMVC\Library\Library.Web\obj\Debug\netcoreapp3.1\Library.Web.MvcApplicationPartsAssemblyInfo.cache
+H:\ASPDotNetMVC\Library\Library.Web\bin\Debug\netcoreapp3.1\publish\appsettings.Development.json
+H:\ASPDotNetMVC\Library\Library.Web\bin\Debug\netcoreapp3.1\publish\appsettings.json
+H:\ASPDotNetMVC\Library\Library.Web\bin\Debug\netcoreapp3.1\publish\LibraryWorkerService.deps.json
+H:\ASPDotNetMVC\Library\Library.Web\bin\Debug\netcoreapp3.1\publish\LibraryWorkerService.runtimeconfig.json
