@@ -24,9 +24,9 @@ namespace Exam2
                             int h = int.Parse(line[0]);
                             int m = int.Parse(line[0]);
                             if (h <= 12)
-                                Console.WriteLine($"{h}:{m} AM");
+                                Console.WriteLine($"{h}:{m}AM");
                             else
-                                Console.WriteLine($"{h - 12}:{m} PM");
+                                Console.WriteLine($"{h - 12}:{m}PM");
 
                             break;
                         }
