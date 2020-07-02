@@ -1,0 +1,9 @@
+H:\ASPDotNetMVC\AuthenticationAthorizationDemo\Membership\bin\Debug\netcoreapp3.1\Membership.deps.json
+H:\ASPDotNetMVC\AuthenticationAthorizationDemo\Membership\bin\Debug\netcoreapp3.1\Membership.dll
+H:\ASPDotNetMVC\AuthenticationAthorizationDemo\Membership\bin\Debug\netcoreapp3.1\Membership.pdb
+H:\ASPDotNetMVC\AuthenticationAthorizationDemo\Membership\obj\Debug\netcoreapp3.1\Membership.csprojAssemblyReference.cache
+H:\ASPDotNetMVC\AuthenticationAthorizationDemo\Membership\obj\Debug\netcoreapp3.1\Membership.AssemblyInfoInputs.cache
+H:\ASPDotNetMVC\AuthenticationAthorizationDemo\Membership\obj\Debug\netcoreapp3.1\Membership.AssemblyInfo.cs
+H:\ASPDotNetMVC\AuthenticationAthorizationDemo\Membership\obj\Debug\netcoreapp3.1\Membership.csproj.CoreCompileInputs.cache
+H:\ASPDotNetMVC\AuthenticationAthorizationDemo\Membership\obj\Debug\netcoreapp3.1\Membership.dll
+H:\ASPDotNetMVC\AuthenticationAthorizationDemo\Membership\obj\Debug\netcoreapp3.1\Membership.pdb
