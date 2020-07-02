@@ -54,7 +54,6 @@ H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\obj\Debug\netcoreapp3.1\DailyExpen
 H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\obj\Debug\netcoreapp3.1\DailyExpense.Web.TagHelpers.input.cache
 H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\obj\Debug\netcoreapp3.1\DailyExpense.Web.TagHelpers.output.cache
 H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\obj\Debug\netcoreapp3.1\DailyExpense.Web.RazorCoreGenerate.cache
-H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
@@ -185,3 +184,5 @@ H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\bin\Debug\netcoreapp3.1\Serilog.Si
 H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\obj\Debug\netcoreapp3.1\DailyExpense.Web.csproj.CoreCompileInputs.cache
 H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\obj\Debug\netcoreapp3.1\DailyExpense.Web.MvcApplicationPartsAssemblyInfo.cs
 H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\obj\Debug\netcoreapp3.1\DailyExpense.Web.MvcApplicationPartsAssemblyInfo.cache
+H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\obj\Debug\netcoreapp3.1\Razor\Controllers\Login.cshtml.g.cs
+H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\obj\Debug\netcoreapp3.1\Razor\Controllers\Register.cshtml.g.cs
