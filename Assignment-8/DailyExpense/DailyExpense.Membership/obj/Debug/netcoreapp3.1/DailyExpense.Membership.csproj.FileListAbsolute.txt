@@ -1,0 +1,9 @@
+C:\Users\Sohag\Desktop\DailyExpense\DailyExpense.Membership\bin\Debug\netcoreapp3.1\DailyExpense.Membership.deps.json
+C:\Users\Sohag\Desktop\DailyExpense\DailyExpense.Membership\bin\Debug\netcoreapp3.1\DailyExpense.Membership.dll
+C:\Users\Sohag\Desktop\DailyExpense\DailyExpense.Membership\bin\Debug\netcoreapp3.1\DailyExpense.Membership.pdb
+C:\Users\Sohag\Desktop\DailyExpense\DailyExpense.Membership\obj\Debug\netcoreapp3.1\DailyExpense.Membership.csprojAssemblyReference.cache
+C:\Users\Sohag\Desktop\DailyExpense\DailyExpense.Membership\obj\Debug\netcoreapp3.1\DailyExpense.Membership.AssemblyInfoInputs.cache
+C:\Users\Sohag\Desktop\DailyExpense\DailyExpense.Membership\obj\Debug\netcoreapp3.1\DailyExpense.Membership.AssemblyInfo.cs
+C:\Users\Sohag\Desktop\DailyExpense\DailyExpense.Membership\obj\Debug\netcoreapp3.1\DailyExpense.Membership.csproj.CoreCompileInputs.cache
+C:\Users\Sohag\Desktop\DailyExpense\DailyExpense.Membership\obj\Debug\netcoreapp3.1\DailyExpense.Membership.dll
+C:\Users\Sohag\Desktop\DailyExpense\DailyExpense.Membership\obj\Debug\netcoreapp3.1\DailyExpense.Membership.pdb
