@@ -58,13 +58,12 @@ namespace DailyExpense.Web
             services.AddDbContext<FrameworkContext>(options =>
                 options.UseSqlServer(connectionString, b => b.MigrationsAssembly(migrationAssemblyName)));
 
-            services.AddIdentity<IdentityUser, IdentityRole>
-                (options => options.SignIn.RequireConfirmedAccount = true)
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddDefaultUI()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
-            services.AddSingleton<UserManager<IdentityUser>>();
-            services.AddSingleton<SignInManager<IdentityUser>>();
-
+          
+            
 
             services.AddSession(options =>
             {
