@@ -7,3 +7,12 @@ C:\Users\Sohag\Desktop\DailyExpense\DailyExpense.Membership\obj\Debug\netcoreapp
 C:\Users\Sohag\Desktop\DailyExpense\DailyExpense.Membership\obj\Debug\netcoreapp3.1\DailyExpense.Membership.csproj.CoreCompileInputs.cache
 C:\Users\Sohag\Desktop\DailyExpense\DailyExpense.Membership\obj\Debug\netcoreapp3.1\DailyExpense.Membership.dll
 C:\Users\Sohag\Desktop\DailyExpense\DailyExpense.Membership\obj\Debug\netcoreapp3.1\DailyExpense.Membership.pdb
+H:\ASPDotNetMVC\Assignment-8\DailyExpense\DailyExpense.Membership\bin\Debug\netcoreapp3.1\DailyExpense.Membership.deps.json
+H:\ASPDotNetMVC\Assignment-8\DailyExpense\DailyExpense.Membership\bin\Debug\netcoreapp3.1\DailyExpense.Membership.dll
+H:\ASPDotNetMVC\Assignment-8\DailyExpense\DailyExpense.Membership\bin\Debug\netcoreapp3.1\DailyExpense.Membership.pdb
+H:\ASPDotNetMVC\Assignment-8\DailyExpense\DailyExpense.Membership\obj\Debug\netcoreapp3.1\DailyExpense.Membership.csprojAssemblyReference.cache
+H:\ASPDotNetMVC\Assignment-8\DailyExpense\DailyExpense.Membership\obj\Debug\netcoreapp3.1\DailyExpense.Membership.AssemblyInfoInputs.cache
+H:\ASPDotNetMVC\Assignment-8\DailyExpense\DailyExpense.Membership\obj\Debug\netcoreapp3.1\DailyExpense.Membership.AssemblyInfo.cs
+H:\ASPDotNetMVC\Assignment-8\DailyExpense\DailyExpense.Membership\obj\Debug\netcoreapp3.1\DailyExpense.Membership.csproj.CoreCompileInputs.cache
+H:\ASPDotNetMVC\Assignment-8\DailyExpense\DailyExpense.Membership\obj\Debug\netcoreapp3.1\DailyExpense.Membership.dll
+H:\ASPDotNetMVC\Assignment-8\DailyExpense\DailyExpense.Membership\obj\Debug\netcoreapp3.1\DailyExpense.Membership.pdb

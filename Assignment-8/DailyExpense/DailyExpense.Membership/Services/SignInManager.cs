@@ -1,4 +1,4 @@
-﻿using Membership.Entities;
+﻿using DailyExpense.Membership.Entities;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -6,7 +6,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
 
-namespace Membership.Services
+namespace DailyExpense.Membership.Services
 {
     public class SignInManager
         : SignInManager<ApplicationUser>

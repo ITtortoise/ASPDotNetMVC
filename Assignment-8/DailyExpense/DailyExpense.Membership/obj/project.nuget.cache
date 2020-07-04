@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rcdowoHi2qbm0xxYsBpmA0l4spZkFbV7lkxbI9ArYyBt5W2e8iZ2Bxgt1DAGAmVNNHxq0TvIz/RKNNzvzpNS5w==",
+  "dgSpecHash": "5IywZhRDvn3Nehn7s3bU60QZK9k3h3pSvwga7mqOxX1Q8Gch9JIzjpLoIArI7HM6DArMO562s9JviLO7Xgb6zA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sohag\\Desktop\\DailyExpense\\DailyExpense.Membership\\DailyExpense.Membership.csproj",
+  "projectFilePath": "H:\\ASPDotNetMVC\\Assignment-8\\DailyExpense\\DailyExpense.Membership\\DailyExpense.Membership.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sohag\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.4\\microsoft.aspnetcore.cryptography.internal.3.1.4.nupkg.sha512",
     "C:\\Users\\Sohag\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.4\\microsoft.aspnetcore.cryptography.keyderivation.3.1.4.nupkg.sha512",

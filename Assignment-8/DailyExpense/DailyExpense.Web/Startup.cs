@@ -10,8 +10,8 @@ using Autofac;
 using DailyExpense.Framework.ContextModule;
 using Autofac.Extensions.DependencyInjection;
 using DailyExpense.Membership;
-using Membership.Entities;
-using Membership.Services;
+using DailyExpense.Membership.Entities;
+using DailyExpense.Membership.Services;
 
 namespace DailyExpense.Web
 {

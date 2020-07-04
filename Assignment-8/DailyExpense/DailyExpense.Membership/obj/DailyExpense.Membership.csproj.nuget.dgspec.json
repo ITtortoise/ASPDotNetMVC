@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sohag\\Desktop\\DailyExpense\\DailyExpense.Membership\\DailyExpense.Membership.csproj": {}
+    "H:\\ASPDotNetMVC\\Assignment-8\\DailyExpense\\DailyExpense.Membership\\DailyExpense.Membership.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sohag\\Desktop\\DailyExpense\\DailyExpense.Membership\\DailyExpense.Membership.csproj": {
+    "H:\\ASPDotNetMVC\\Assignment-8\\DailyExpense\\DailyExpense.Membership\\DailyExpense.Membership.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sohag\\Desktop\\DailyExpense\\DailyExpense.Membership\\DailyExpense.Membership.csproj",
+        "projectUniqueName": "H:\\ASPDotNetMVC\\Assignment-8\\DailyExpense\\DailyExpense.Membership\\DailyExpense.Membership.csproj",
         "projectName": "DailyExpense.Membership",
-        "projectPath": "C:\\Users\\Sohag\\Desktop\\DailyExpense\\DailyExpense.Membership\\DailyExpense.Membership.csproj",
+        "projectPath": "H:\\ASPDotNetMVC\\Assignment-8\\DailyExpense\\DailyExpense.Membership\\DailyExpense.Membership.csproj",
         "packagesPath": "C:\\Users\\Sohag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sohag\\Desktop\\DailyExpense\\DailyExpense.Membership\\obj\\",
+        "outputPath": "H:\\ASPDotNetMVC\\Assignment-8\\DailyExpense\\DailyExpense.Membership\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sohag\\AppData\\Roaming\\NuGet\\NuGet.Config",

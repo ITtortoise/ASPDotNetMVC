@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using Membership.Entities;
+using DailyExpense.Membership.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace Membership.Services
+namespace DailyExpense.Membership.Services
 {
     public class UserManager
         : UserManager<ApplicationUser>

@@ -2,6 +2,7 @@
 using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
+using DailyExpense.Membership.Entities;
 using DailyExpense.Web.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
@@ -14,14 +15,14 @@ namespace DailyExpense.Web.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly SignInManager<IdentityUser> _signInManager;
-        private readonly UserManager<IdentityUser> _userManager;
+        private readonly SignInManager<ApplicationUser> _signInManager;
+        private readonly UserManager<ApplicationUser> _userManager;
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
 
         public AccountController(
-            UserManager<IdentityUser> userManager,
-            SignInManager<IdentityUser> signInManager,
+            UserManager<ApplicationUser> userManager,
+            SignInManager<ApplicationUser> signInManager,
             ILogger<RegisterModel> logger,
             IEmailSender emailSender)
         {
@@ -30,7 +31,7 @@ namespace DailyExpense.Web.Controllers
             _logger = logger;
             _emailSender = emailSender;
         }
-        public async Task Login(string returnUrl = null)
+        public async Task<IActionResult> Login(string returnUrl = null)
         {
             var model = new LoginModel();
             if (!string.IsNullOrEmpty(model.ErrorMessage))
@@ -46,6 +47,8 @@ namespace DailyExpense.Web.Controllers
             model.ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
 
             model.ReturnUrl = returnUrl;
+
+            return View(model);
         }
         [HttpPost]
         public async Task<IActionResult> Login(LoginModel model)
@@ -94,7 +97,7 @@ namespace DailyExpense.Web.Controllers
             model.ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             if (ModelState.IsValid)
             {
-                var user = new IdentityUser { UserName = model.Email, Email = model.Email };
+                var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
                 var result = await _userManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
@@ -129,10 +132,10 @@ namespace DailyExpense.Web.Controllers
             return View(model);
         }
 
-        //public IActionResult ConfirmEmail()
-        //{
-        //    return View();
-        //}
+        public IActionResult ConfirmEmail()
+        {
+            return View();
+        }
         public IActionResult Index()
         {
             return View();

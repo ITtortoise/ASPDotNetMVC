@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
-using Membership.Entities;
+using DailyExpense.Membership.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Logging;
 
-namespace Membership.Services
+namespace DailyExpense.Membership.Services
 {
     public class RoleManager
         : RoleManager<Role>

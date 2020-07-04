@@ -9518,11 +9518,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sohag\\Desktop\\DailyExpense\\DailyExpense.Web\\DailyExpense.Web.csproj",
+      "projectUniqueName": "H:\\ASPDotNetMVC\\Assignment-8\\DailyExpense\\DailyExpense.Web\\DailyExpense.Web.csproj",
       "projectName": "DailyExpense.Web",
-      "projectPath": "C:\\Users\\Sohag\\Desktop\\DailyExpense\\DailyExpense.Web\\DailyExpense.Web.csproj",
+      "projectPath": "H:\\ASPDotNetMVC\\Assignment-8\\DailyExpense\\DailyExpense.Web\\DailyExpense.Web.csproj",
       "packagesPath": "C:\\Users\\Sohag\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sohag\\Desktop\\DailyExpense\\DailyExpense.Web\\obj\\",
+      "outputPath": "H:\\ASPDotNetMVC\\Assignment-8\\DailyExpense\\DailyExpense.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sohag\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9538,11 +9538,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Sohag\\Desktop\\DailyExpense\\DailyExpense.Framework\\DailyExpense.Framework.csproj": {
-              "projectPath": "C:\\Users\\Sohag\\Desktop\\DailyExpense\\DailyExpense.Framework\\DailyExpense.Framework.csproj"
+            "H:\\ASPDotNetMVC\\Assignment-8\\DailyExpense\\DailyExpense.Framework\\DailyExpense.Framework.csproj": {
+              "projectPath": "H:\\ASPDotNetMVC\\Assignment-8\\DailyExpense\\DailyExpense.Framework\\DailyExpense.Framework.csproj"
             },
-            "C:\\Users\\Sohag\\Desktop\\DailyExpense\\DailyExpense.Membership\\DailyExpense.Membership.csproj": {
-              "projectPath": "C:\\Users\\Sohag\\Desktop\\DailyExpense\\DailyExpense.Membership\\DailyExpense.Membership.csproj"
+            "H:\\ASPDotNetMVC\\Assignment-8\\DailyExpense\\DailyExpense.Membership\\DailyExpense.Membership.csproj": {
+              "projectPath": "H:\\ASPDotNetMVC\\Assignment-8\\DailyExpense\\DailyExpense.Membership\\DailyExpense.Membership.csproj"
             }
           }
         }

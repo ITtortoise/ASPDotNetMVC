@@ -2,7 +2,7 @@
 
 using Microsoft.AspNetCore.Identity;
 
-namespace Membership.Entities
+namespace DailyExpense.Membership.Entities
 {
     public class UserToken
         : IdentityUserToken<Guid>
