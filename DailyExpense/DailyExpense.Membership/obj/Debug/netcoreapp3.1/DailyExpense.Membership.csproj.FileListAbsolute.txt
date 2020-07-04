@@ -1,0 +1,9 @@
+H:\ASPDotNetMVC\DailyExpense\DailyExpense.Membership\obj\Debug\netcoreapp3.1\DailyExpense.Membership.csprojAssemblyReference.cache
+H:\ASPDotNetMVC\DailyExpense\DailyExpense.Membership\obj\Debug\netcoreapp3.1\DailyExpense.Membership.AssemblyInfoInputs.cache
+H:\ASPDotNetMVC\DailyExpense\DailyExpense.Membership\obj\Debug\netcoreapp3.1\DailyExpense.Membership.AssemblyInfo.cs
+H:\ASPDotNetMVC\DailyExpense\DailyExpense.Membership\obj\Debug\netcoreapp3.1\DailyExpense.Membership.csproj.CoreCompileInputs.cache
+H:\ASPDotNetMVC\DailyExpense\DailyExpense.Membership\bin\Debug\netcoreapp3.1\DailyExpense.Membership.deps.json
+H:\ASPDotNetMVC\DailyExpense\DailyExpense.Membership\bin\Debug\netcoreapp3.1\DailyExpense.Membership.dll
+H:\ASPDotNetMVC\DailyExpense\DailyExpense.Membership\bin\Debug\netcoreapp3.1\DailyExpense.Membership.pdb
+H:\ASPDotNetMVC\DailyExpense\DailyExpense.Membership\obj\Debug\netcoreapp3.1\DailyExpense.Membership.dll
+H:\ASPDotNetMVC\DailyExpense\DailyExpense.Membership\obj\Debug\netcoreapp3.1\DailyExpense.Membership.pdb

@@ -183,5 +183,13 @@ H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\bin\Debug\netcoreapp3.1\Serilog.Se
 H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
 H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\bin\Debug\netcoreapp3.1\Serilog.Sinks.Debug.dll
 H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\obj\Debug\netcoreapp3.1\DailyExpense.Web.csproj.CoreCompileInputs.cache
-H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\obj\Debug\netcoreapp3.1\DailyExpense.Web.MvcApplicationPartsAssemblyInfo.cs
 H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\obj\Debug\netcoreapp3.1\DailyExpense.Web.MvcApplicationPartsAssemblyInfo.cache
+H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\bin\Debug\netcoreapp3.1\DailyExpense.Membership.dll
+H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\bin\Debug\netcoreapp3.1\DailyExpense.Membership.pdb
+H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\obj\Debug\netcoreapp3.1\DailyExpense.Web.MvcApplicationPartsAssemblyInfo.cs
+H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+H:\ASPDotNetMVC\DailyExpense\DailyExpense.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Dashboard\CreateRole.cshtml.g.cs
