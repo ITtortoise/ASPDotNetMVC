@@ -16,14 +16,12 @@ namespace DailyExpense.Web.Areas.Admin.Controllers
     {
         private readonly IConfiguration _configuration;
         private readonly RoleManager _roleManager;
-        public DashboardController(RoleManager roleManager)
+        public DashboardController(RoleManager roleManager,IConfiguration configuration)
         {
             _roleManager = roleManager;
-        }
-        public DashboardController(IConfiguration configuration)
-        {
             _configuration = configuration;
         }
+    
         public IActionResult Index()
         {
             var model = new DashboardModel();
@@ -32,9 +30,12 @@ namespace DailyExpense.Web.Areas.Admin.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> CreateRole()
         {
+            var model = new DashboardModel();
+
             await _roleManager.CreateAsync(new Membership.Entities.Role("administrator"));
             await _roleManager.CreateAsync(new Membership.Entities.Role("superuser"));
-            return View();
+
+            return View(model);
         }
     }
 }
