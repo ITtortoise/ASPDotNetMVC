@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace CourseRegistrationSystem.Web.Areas.Admin.Models.CourseModelFiles
 {
-    public class StudentModel
+    public class CourseModel
     {
     }
 }
