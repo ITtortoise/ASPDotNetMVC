@@ -6,7 +6,7 @@ H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Framework\bin\
 H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Framework\bin\Debug\netcoreapp3.1\CourseRegistrationSystem.Framework.dll
 H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Framework\bin\Debug\netcoreapp3.1\CourseRegistrationSystem.Framework.pdb
 H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Framework\bin\Debug\netcoreapp3.1\CourseRegistrationSystem.Data.pdb
-H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Framework\obj\Debug\netcoreapp3.1\CourseRegistrationSystem.Framework.csproj.CoreCompileInputs.cache
 H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Framework\obj\Debug\netcoreapp3.1\CourseRegistrationSystem.Framework.csproj.CopyComplete
 H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Framework\obj\Debug\netcoreapp3.1\CourseRegistrationSystem.Framework.dll
 H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Framework\obj\Debug\netcoreapp3.1\CourseRegistrationSystem.Framework.pdb
+H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Framework\obj\Debug\netcoreapp3.1\CourseRegistrationSystem.Framework.csproj.CoreCompileInputs.cache
