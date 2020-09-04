@@ -13,7 +13,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Autofac;
-using CourseRegistrationSystem.Framework.FrameworkContext;
+using CourseRegistrationSystem.Framework.FrameworkContextFiles;
 using Autofac.Extensions.DependencyInjection;
 
 namespace CourseRegistrationSystem.Web
@@ -41,7 +41,7 @@ namespace CourseRegistrationSystem.Web
             var migrationAssemblyName = typeof(Startup).Assembly.FullName;
 
             builder.RegisterModule(new FrameworkModule(connectionString, migrationAssemblyName));
-           // builder.RegisterModule(new WebModule(connectionString, migrationAssemblyName));
+            builder.RegisterModule(new WebModule(connectionString, migrationAssemblyName));
         }
 
         // This method gets called by the runtime. Use this method to add services to the container.

@@ -4,7 +4,8 @@ using System.Text;
 
 namespace CourseRegistrationSystem.Framework.Services
 {
-    public class StudentService
+    public class StudentService : IStudentService
     {
     }
 }
+  

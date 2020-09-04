@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Library.Web.Areas.Admin.Models;
+﻿using CourseRegistrationSystem.Web.Areas.Admin.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 
-namespace Library.Web.Areas.Admin.Controllers
+namespace CourseRegistrationSystem.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class DashboardController : Controller
