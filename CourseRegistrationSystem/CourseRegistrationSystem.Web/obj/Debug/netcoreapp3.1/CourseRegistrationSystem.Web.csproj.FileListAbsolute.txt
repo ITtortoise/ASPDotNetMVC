@@ -177,3 +177,4 @@ H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Web\obj\Debug\
 H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_ActionMessage.cshtml.g.cs
 H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
 H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_LeftMenu.cshtml.g.cs
+H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Students\AddStudent.cshtml.g.cs
