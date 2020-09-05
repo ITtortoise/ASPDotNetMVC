@@ -58,7 +58,7 @@ namespace CourseRegistrationSystem.Web.Areas.Admin.Models
                             Childs = new List<MenuChildItem>
                             {
                                 new MenuChildItem{ Title = "View Courses", Url = "/Admin/Courses" },
-                                new MenuChildItem{ Title = "Add Course", Url ="/Admin/Courses/AddCourses"}
+                                new MenuChildItem{ Title = "Add Course", Url ="/Admin/Courses/AddCourse"}
                             },
                             Title2 = "Student Information",
                             Childs2 = new List<MenuChildItem>

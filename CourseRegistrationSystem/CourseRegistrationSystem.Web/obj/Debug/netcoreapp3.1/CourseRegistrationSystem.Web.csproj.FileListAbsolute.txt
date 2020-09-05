@@ -181,5 +181,5 @@ H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Web\obj\Debug\
 H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Students\EditStudent.cshtml.g.cs
 H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Students\Index.cshtml.g.cs
 H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Courses\Index.cshtml.g.cs
-H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Courses\AddCourse.cshtml.g.cs
 H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Courses\EditCourse.cshtml.g.cs
+H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Courses\AddCourse.cshtml.g.cs
