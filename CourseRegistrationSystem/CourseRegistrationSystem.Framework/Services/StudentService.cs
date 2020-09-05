@@ -23,7 +23,7 @@ namespace CourseRegistrationSystem.Framework.Services
             _resultUnitOfWork.StudentRepository.Add(newstudent);
             _resultUnitOfWork.Save();
         }
-        public void UpdateStudent(Student student)
+        public void EditStudent(Student student)
         {
             var count = _resultUnitOfWork.StudentRepository.GetCount(x => x.Name == student.Name
                                                                                  && x.Id != student.Id);

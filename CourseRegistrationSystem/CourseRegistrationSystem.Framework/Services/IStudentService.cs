@@ -14,6 +14,6 @@ namespace CourseRegistrationSystem.Framework.Services
         void CreateStudent(Student newstudent);
         void DeleteStudent(int id);
         Student GetStudentbyId(int id);
-        void UpdateStudent(Student student);
+        void EditStudent(Student student);
     }
 }

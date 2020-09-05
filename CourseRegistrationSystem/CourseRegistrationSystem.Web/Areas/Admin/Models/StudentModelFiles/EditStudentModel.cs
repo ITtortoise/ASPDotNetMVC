@@ -37,7 +37,7 @@ namespace CourseRegistrationSystem.Web.Areas.Admin.Models.StudentModelFiles
                 DateOfBirth = this.DateOfBirth
             };
 
-            _studentService.UpdateStudent(student);
+            _studentService.EditStudent(student);
         }
 
 
