@@ -5,6 +5,8 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Linq.Dynamic.Core;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore.Query;
 
 namespace CourseRegistrationSystem.Data
 {
@@ -20,6 +22,61 @@ namespace CourseRegistrationSystem.Data
         {
             _dbContext = context;
             _dbSet = _dbContext.Set<TEntity>();
+        }
+        public virtual async Task<IList<TResult>> GetAsync<TResult>(Expression<Func<TEntity, TResult>> selector,
+                           Expression<Func<TEntity, bool>> predicate = null,
+                           Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null,
+                           Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>> include = null,
+                           bool disableTracking = true)
+        {
+            IQueryable<TEntity> query = _dbSet.AsQueryable();
+
+            if (include != null)
+                query = include(query);
+
+            if (predicate != null)
+                query = query.Where(predicate);
+
+            if (orderBy != null)
+                query = orderBy(query);
+
+            if (disableTracking)
+                query = query.AsNoTracking();
+
+            var result = await query.Select(selector).ToListAsync();
+
+            return result;
+        }
+        public virtual async Task<(IList<TResult> Items, int Total, int TotalDisplay)> GetAsync<TResult>(Expression<Func<TEntity, TResult>> selector,
+                           Expression<Func<TEntity, bool>> predicate = null,
+                           Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null,
+                           Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>> include = null,
+                           int pageIndex = 1, int pageSize = 10,
+                           bool disableTracking = true)
+        {
+            IQueryable<TEntity> query = _dbSet.AsQueryable();
+
+            int total = await query.CountAsync();
+            int totalDisplay = total;
+
+            if (include != null)
+                query = include(query);
+
+            if (predicate != null)
+            {
+                query = query.Where(predicate);
+                totalDisplay = await query.CountAsync();
+            }
+
+            if (orderBy != null)
+                query = orderBy(query);
+
+            if (disableTracking)
+                query = query.AsNoTracking();
+
+            var result = await query.Skip((pageIndex - 1) * pageSize).Take(pageSize).Select(selector).ToListAsync();
+
+            return (result, total, totalDisplay);
         }
 
         public virtual void Add(TEntity entity)

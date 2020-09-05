@@ -18,9 +18,11 @@ namespace CourseRegistrationSystem.Web.Areas.Admin.Models.StudentRegistrationMod
         {
             _studentRegistrationService = Startup.AutofacContainer.Resolve<IStudentRegistrationService>();
         }
+       
         public void Dispose()
         {
             _studentRegistrationService?.Dispose();
         }
+     
     }
 }

@@ -1,9 +1,13 @@
-﻿using CourseRegistrationSystem.Framework.Entities;
+﻿using CourseRegistrationSystem.Data;
+using CourseRegistrationSystem.Framework.Entities;
 using CourseRegistrationSystem.Framework.Unitofwork;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace CourseRegistrationSystem.Framework.Services
 {
@@ -50,14 +54,33 @@ namespace CourseRegistrationSystem.Framework.Services
             return _resultUnitOfWork.StudentRegistrationRepository.GetById(id);
 
         }
-
-        public (IList<StudentRegistration> records, int total, int totalDisplay) GetStudentRegistrations(int pageIndex, int pageSize, string searchText, string sortText)
+        public async Task<(IList<StudentRegistration> Items, int Total, int TotalDisplay)> GetAllAsync(
+            string searchText, string orderBy, int pageIndex, int pageSize)
         {
-            var result = _resultUnitOfWork.StudentRegistrationRepository.GetAll().ToList();
-            return (result, 0, 0);
+            var columnsMap = new Dictionary<string, Expression<Func<StudentRegistration, object>>>()
+            {
+                ["enrollDate"] = v => v.EnrollDate,
+                ["studentName"] = v => v.Student.Name,
+                ["courseTitle"] = v => v.Course.Title,
+            };
 
+            var result = await _resultUnitOfWork.StudentRegistrationRepository.GetAsync<StudentRegistration>(
+                x => x, x => x.Student.Name.Contains(searchText) || x.Course.Title.Contains(searchText),
+                x => x.ApplyOrdering(columnsMap, orderBy),
+                x => x.Include(y => y.Student).Include(y => y.Course),
+                pageIndex, pageSize, true);
+
+            return (result.Items, result.Total, result.TotalDisplay);
+        }
+        public async Task<IList<object>> GetStudentsForSelectAsync()
+        {
+            return await _resultUnitOfWork.StudentRepository.GetAsync<object>(x => new { Value = x.Id.ToString(), Text = x.Name }, null, null, null, true);
         }
 
+        public async Task<IList<object>> GetCoursesForSelectAsync()
+        {
+            return await _resultUnitOfWork.CourseRepository.GetAsync<object>(x => new { Value = x.Id.ToString(), Text = x.Title }, null, null, null, true);
+        }
 
-    }
+    }  
 }

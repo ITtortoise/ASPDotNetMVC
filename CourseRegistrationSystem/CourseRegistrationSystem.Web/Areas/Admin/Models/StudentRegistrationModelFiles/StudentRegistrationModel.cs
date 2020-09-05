@@ -11,27 +11,27 @@ namespace CourseRegistrationSystem.Web.Areas.Admin.Models.StudentRegistrationMod
         public StudentRegistrationModel(IStudentRegistrationService studentRegistrationService) : base(studentRegistrationService) { }
         public StudentRegistrationModel() : base() { }
 
-        internal object GetStudentRegistrations(DataTablesAjaxRequestModel tableModel)
+        public async Task<object> GetStudentRegistrations(DataTablesAjaxRequestModel tableModel)
         {
-            var data = _studentRegistrationService.GetStudentRegistrations(
-                tableModel.PageIndex,
-                tableModel.PageSize,
+            var result = await _studentRegistrationService.GetAllAsync(
                 tableModel.SearchText,
-                tableModel.GetSortText(new string[] { "StudentId", "CourseId", "EnrollDate" }));
+                tableModel.GetSortText(new string[] { "enrollDate", "studentName", "courseTitle" }),
+                tableModel.PageIndex, tableModel.PageSize);
+
             return new
             {
-                recordsTotal = data.total,
-                recordsFiltered = data.totalDisplay,
-                data = (from record in data.records
+                recordsTotal = result.Total,
+                recordsFiltered = result.TotalDisplay,
+                data = (from item in result.Items
                         select new string[]
                         {
-                            record.StudentId.ToString(),
-                            record.CourseId.ToString(),
-                            record.EnrollDate.ToString(),
-                            record.IsPaymentComplete.ToString(),
-                            record.Id.ToString()
+                                    item.EnrollDate.ToString("dd MMMM, yyyy"),
+                                    item.Student.Name,
+                                    item.Course.Title,
+                                    item.IsPaymentComplete.ToString(),
+                                    item.Id.ToString()
                         }
-                    ).ToArray()
+                        ).ToArray()
 
             };
         }
@@ -39,6 +39,14 @@ namespace CourseRegistrationSystem.Web.Areas.Admin.Models.StudentRegistrationMod
         internal void Delete(int id)
         {
             _studentRegistrationService.DeleteStudentRegistration(id);
+        }
+        public IList<object> StudentSelectList { get; set; }
+        public IList<object> CourseSelectList { get; set; }
+
+        public async Task LoadAllSelectListAsync()
+        {
+            this.StudentSelectList = await _studentRegistrationService.GetStudentsForSelectAsync();
+            this.CourseSelectList = await _studentRegistrationService.GetCoursesForSelectAsync();
         }
     }
 }

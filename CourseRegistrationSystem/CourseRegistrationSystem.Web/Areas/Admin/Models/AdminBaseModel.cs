@@ -70,7 +70,7 @@ namespace CourseRegistrationSystem.Web.Areas.Admin.Models
                             Childs3 = new List<MenuChildItem>
                             {
                                 new MenuChildItem{ Title = "View Records", Url = "/Admin/Registrations" },
-                                new MenuChildItem{ Title = "Add Record", Url ="/Admin/Registrations/AddRegistration"}
+                                new MenuChildItem{ Title = "Add Record", Url ="/Admin/Registrations/AddStudentRegistration"}
                             }
                         }
                     }

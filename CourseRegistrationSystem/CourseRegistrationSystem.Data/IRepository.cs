@@ -1,9 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Query;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace CourseRegistrationSystem.Data
 {
@@ -20,6 +22,17 @@ namespace CourseRegistrationSystem.Data
         IList<TEntity> Get(Expression<Func<TEntity, bool>> filter);
         IList<TEntity> GetAll();
         TEntity GetById(TKey id);
+        Task<IList<TResult>> GetAsync<TResult>(Expression<Func<TEntity, TResult>> selector,
+                            Expression<Func<TEntity, bool>> predicate = null,
+                            Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null,
+                            Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>> include = null,
+                            bool disableTracking = true);
+        Task<(IList<TResult> Items, int Total, int TotalDisplay)> GetAsync<TResult>(Expression<Func<TEntity, TResult>> selector,
+                          Expression<Func<TEntity, bool>> predicate = null,
+                          Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null,
+                          Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>> include = null,
+                          int pageIndex = 1, int pageSize = 10,
+                          bool disableTracking = true);
         (IList<TEntity> data, int total, int totalDisplay) Get(
             Expression<Func<TEntity, bool>> filter = null,
             Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null,

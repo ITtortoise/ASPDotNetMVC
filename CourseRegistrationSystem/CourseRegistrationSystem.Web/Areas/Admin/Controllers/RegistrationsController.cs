@@ -26,6 +26,7 @@ namespace CourseRegistrationSystem.Web.Areas.Admin.Controllers
             var model = new CreateStudentRegistrationModel();
             return View(model);
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult AddStudentRegistration(
@@ -34,12 +35,14 @@ namespace CourseRegistrationSystem.Web.Areas.Admin.Controllers
             nameof(CreateStudentRegistrationModel.EnrollDate),
             nameof(CreateStudentRegistrationModel.IsPaymentComplete))] CreateStudentRegistrationModel model)
         {
+            ModelState.Remove("Id");
+
             if (ModelState.IsValid)
             {
                 try
                 {
                     model.Create();
-                    model.Response = new ResponseModel("Student creation successful.", ResponseType.Success);
+                    model.Response = new ResponseModel("Registration successful.", ResponseType.Success);
                     //return View(model);
                     return RedirectToAction("Index");
                 }
@@ -50,7 +53,7 @@ namespace CourseRegistrationSystem.Web.Areas.Admin.Controllers
                 }
                 catch (Exception ex)
                 {
-                    model.Response = new ResponseModel("Student creation failed.", ResponseType.Failure);
+                    model.Response = new ResponseModel("Registration failed.", ResponseType.Failure);
                     // error logger code
                 }
             }
@@ -76,7 +79,7 @@ namespace CourseRegistrationSystem.Web.Areas.Admin.Controllers
                 try
                 {
                     model.Edit();
-                    model.Response = new ResponseModel("StudentRegistration record update successful.", ResponseType.Success);
+                    model.Response = new ResponseModel("Registration record update successful.", ResponseType.Success);
                     //return View(model);
                     return RedirectToAction("Index");
                 }
@@ -87,7 +90,7 @@ namespace CourseRegistrationSystem.Web.Areas.Admin.Controllers
                 }
                 catch (Exception ex)
                 {
-                    model.Response = new ResponseModel("StudentRegistration record update failed.", ResponseType.Failure);
+                    model.Response = new ResponseModel("Registration record update failed.", ResponseType.Failure);
                     // error logger code
                 }
             }

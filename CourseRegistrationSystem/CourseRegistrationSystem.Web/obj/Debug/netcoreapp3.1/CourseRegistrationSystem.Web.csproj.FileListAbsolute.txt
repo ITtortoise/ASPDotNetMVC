@@ -183,3 +183,6 @@ H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Web\obj\Debug\
 H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Courses\Index.cshtml.g.cs
 H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Courses\EditCourse.cshtml.g.cs
 H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Courses\AddCourse.cshtml.g.cs
+H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Registrations\Index.cshtml.g.cs
+H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Registrations\AddStudentRegistration.cshtml.g.cs
+H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Registrations\EditStudentRegistration.cshtml.g.cs

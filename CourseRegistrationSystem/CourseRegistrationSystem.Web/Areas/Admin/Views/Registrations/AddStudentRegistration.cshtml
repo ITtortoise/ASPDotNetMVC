@@ -1,0 +1,111 @@
+﻿@model CreateStudentRegistrationModel
+@{
+    ViewData["Title"] = "AddStudentRegistration";
+}
+
+<h1>AddStudentRegistration</h1>
+
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>
+                        New Severity	Code	Description	Project	File	Line	Suppression State
+                        Warning	CS0168	The variable 'ex' is declared but never used	CourseRegistrationSystem.Web	H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Web\Areas\Admin\Controllers\RegistrationsController.cs	54	Active
+                    </h1>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">New Registration</li>
+                    </ol>
+                </div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Add a new Record</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                        <partial name="_ActionMessage" model="@Model.Response" />
+                        <form asp-area="Admin" asp-controller="Registrations" asp-action="AddStudentRegistration" method="post" class="form-horizontal">
+                            <div asp-validation-summary="All" class="text-danger"></div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group row">
+                                        <label class="col-form-label col-lg-4 required" asp-for="StudentId"></label>
+                                        <div class="col-lg-8">
+                                            <select class="form-control" asp-for="StudentId" asp-items="@(new SelectList(Model.StudentSelectList,"Value","Text"))">
+                                                <option value="">Choose--</option>
+                                            </select>
+                                            <span asp-validation-for="StudentId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-form-label col-lg-4 required" asp-for="CourseId"></label>
+                                        <div class="col-lg-8">
+                                            <select class="form-control" asp-for="CourseId" asp-items="@(new SelectList(Model.CourseSelectList,"Value","Text"))">
+                                                <option value="">Choose--</option>
+                                            </select>
+                                            <span asp-validation-for="CourseId" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-form-label col-lg-4 required" asp-for="EnrollDate"></label>
+                                        <div class="col-lg-8">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control pickadate-accessibility" placeholder="Select Date" asp-for="EnrollDate">
+                                                <span class="input-group-append">
+                                                    <span class="input-group-text"><i class="icon-calendar22"></i></span>
+                                                </span>
+                                            </div>
+                                            <span asp-validation-for="EnrollDate" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-form-label col-lg-4 required" asp-for="IsPaymentComplete"></label>
+                                        <div class="col-lg-8">
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input type="checkbox" class="form-check-input-styled" asp-for="IsPaymentComplete">
+                                                </label>
+                                            </div>
+                                            <span asp-validation-for="IsPaymentComplete" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="d-flex justify-content-end">
+                                    <button type="button" class="btn btn-light" data-dismiss="modal"><i class="icon-close2"></i> Close</button>
+                                    <button type="submit" class="btn bg-teal ml-2"><i class="icon-file-check2"></i> Save</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+    </section>
+    <!-- /.content -->
+</div>
+
+@section PageScripts
+{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+}  
