@@ -17,7 +17,7 @@ namespace CourseRegistrationSystem.Web.Areas.Admin.Models.CourseModelFiles
                 tableModel.PageIndex,
                 tableModel.PageSize,
                 tableModel.SearchText,
-                tableModel.GetSortText(new string[] { "Title", "SeatCount", "Fee" }));
+                tableModel.GetSortText(new string[] { "Title" }));
             return new
             {
                 recordsTotal = data.total,
