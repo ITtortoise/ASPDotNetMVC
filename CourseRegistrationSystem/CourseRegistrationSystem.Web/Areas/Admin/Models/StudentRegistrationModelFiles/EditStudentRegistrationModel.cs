@@ -43,5 +43,13 @@ namespace CourseRegistrationSystem.Web.Areas.Admin.Models.StudentRegistrationMod
             };
             _studentRegistrationService.CreateStudentRegistration(newstudentRegistration);
         }
+        public IList<object> StudentSelectList { get; set; }
+        public IList<object> CourseSelectList { get; set; }
+
+        public async Task LoadAllSelectListAsync()
+        {
+            this.StudentSelectList = await _studentRegistrationService.GetStudentsForSelectAsync();
+            this.CourseSelectList = await _studentRegistrationService.GetCoursesForSelectAsync();
+        }
     }
 }
