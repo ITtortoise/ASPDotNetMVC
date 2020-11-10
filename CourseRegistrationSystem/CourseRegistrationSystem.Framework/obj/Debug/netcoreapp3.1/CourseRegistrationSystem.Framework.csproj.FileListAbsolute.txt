@@ -10,3 +10,15 @@ H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Framework\obj\
 H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Framework\obj\Debug\netcoreapp3.1\CourseRegistrationSystem.Framework.dll
 H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Framework\obj\Debug\netcoreapp3.1\CourseRegistrationSystem.Framework.pdb
 H:\ASPDotNetMVC\CourseRegistrationSystem\CourseRegistrationSystem.Framework\obj\Debug\netcoreapp3.1\CourseRegistrationSystem.Framework.csproj.CoreCompileInputs.cache
+J:\ASPDotNetCoreMVC\CourseRegistrationSystem\CourseRegistrationSystem.Framework\bin\Debug\netcoreapp3.1\CourseRegistrationSystem.Framework.deps.json
+J:\ASPDotNetCoreMVC\CourseRegistrationSystem\CourseRegistrationSystem.Framework\bin\Debug\netcoreapp3.1\CourseRegistrationSystem.Framework.dll
+J:\ASPDotNetCoreMVC\CourseRegistrationSystem\CourseRegistrationSystem.Framework\bin\Debug\netcoreapp3.1\CourseRegistrationSystem.Framework.pdb
+J:\ASPDotNetCoreMVC\CourseRegistrationSystem\CourseRegistrationSystem.Framework\bin\Debug\netcoreapp3.1\CourseRegistrationSystem.Data.dll
+J:\ASPDotNetCoreMVC\CourseRegistrationSystem\CourseRegistrationSystem.Framework\bin\Debug\netcoreapp3.1\CourseRegistrationSystem.Data.pdb
+J:\ASPDotNetCoreMVC\CourseRegistrationSystem\CourseRegistrationSystem.Framework\obj\Debug\netcoreapp3.1\CourseRegistrationSystem.Framework.csprojAssemblyReference.cache
+J:\ASPDotNetCoreMVC\CourseRegistrationSystem\CourseRegistrationSystem.Framework\obj\Debug\netcoreapp3.1\CourseRegistrationSystem.Framework.AssemblyInfoInputs.cache
+J:\ASPDotNetCoreMVC\CourseRegistrationSystem\CourseRegistrationSystem.Framework\obj\Debug\netcoreapp3.1\CourseRegistrationSystem.Framework.AssemblyInfo.cs
+J:\ASPDotNetCoreMVC\CourseRegistrationSystem\CourseRegistrationSystem.Framework\obj\Debug\netcoreapp3.1\CourseRegistrationSystem.Framework.csproj.CoreCompileInputs.cache
+J:\ASPDotNetCoreMVC\CourseRegistrationSystem\CourseRegistrationSystem.Framework\obj\Debug\netcoreapp3.1\CourseRegistrationSystem.Framework.csproj.CopyComplete
+J:\ASPDotNetCoreMVC\CourseRegistrationSystem\CourseRegistrationSystem.Framework\obj\Debug\netcoreapp3.1\CourseRegistrationSystem.Framework.dll
+J:\ASPDotNetCoreMVC\CourseRegistrationSystem\CourseRegistrationSystem.Framework\obj\Debug\netcoreapp3.1\CourseRegistrationSystem.Framework.pdb

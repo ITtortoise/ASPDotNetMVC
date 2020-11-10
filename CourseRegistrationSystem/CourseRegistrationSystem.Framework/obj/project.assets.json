@@ -5975,19 +5975,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sohag\\.nuget\\packages\\": {}
+    "C:\\Users\\shohag\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\ASPDotNetMVC\\CourseRegistrationSystem\\CourseRegistrationSystem.Framework\\CourseRegistrationSystem.Framework.csproj",
+      "projectUniqueName": "J:\\ASPDotNetCoreMVC\\CourseRegistrationSystem\\CourseRegistrationSystem.Framework\\CourseRegistrationSystem.Framework.csproj",
       "projectName": "CourseRegistrationSystem.Framework",
-      "projectPath": "H:\\ASPDotNetMVC\\CourseRegistrationSystem\\CourseRegistrationSystem.Framework\\CourseRegistrationSystem.Framework.csproj",
-      "packagesPath": "C:\\Users\\Sohag\\.nuget\\packages\\",
-      "outputPath": "H:\\ASPDotNetMVC\\CourseRegistrationSystem\\CourseRegistrationSystem.Framework\\obj\\",
+      "projectPath": "J:\\ASPDotNetCoreMVC\\CourseRegistrationSystem\\CourseRegistrationSystem.Framework\\CourseRegistrationSystem.Framework.csproj",
+      "packagesPath": "C:\\Users\\shohag\\.nuget\\packages\\",
+      "outputPath": "J:\\ASPDotNetCoreMVC\\CourseRegistrationSystem\\CourseRegistrationSystem.Framework\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Sohag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\shohag\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6000,8 +6000,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "H:\\ASPDotNetMVC\\CourseRegistrationSystem\\CourseRegistrationSystem.Data\\CourseRegistrationSystem.Data.csproj": {
-              "projectPath": "H:\\ASPDotNetMVC\\CourseRegistrationSystem\\CourseRegistrationSystem.Data\\CourseRegistrationSystem.Data.csproj"
+            "J:\\ASPDotNetCoreMVC\\CourseRegistrationSystem\\CourseRegistrationSystem.Data\\CourseRegistrationSystem.Data.csproj": {
+              "projectPath": "J:\\ASPDotNetCoreMVC\\CourseRegistrationSystem\\CourseRegistrationSystem.Data\\CourseRegistrationSystem.Data.csproj"
             }
           }
         }
@@ -6047,7 +6047,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
