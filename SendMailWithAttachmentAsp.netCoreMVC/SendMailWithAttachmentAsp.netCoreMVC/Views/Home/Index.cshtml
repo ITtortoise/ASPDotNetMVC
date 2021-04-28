@@ -1,0 +1,44 @@
+﻿@model Contact
+
+<!DOCTYPE html>
+<html>
+<body>
+    @ViewBag.msg
+    <form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="send">
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" asp-for="Name" /></td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td><input type="text" asp-for="Phone" /></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text" asp-for="Email" /></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><input type="text" asp-for="Address" /></td>
+            </tr>
+            <tr>
+                <td>Subject</td>
+                <td><input type="text" asp-for="Subject" /></td>
+            </tr>
+            <tr>
+                <td valign="top">Content</td>
+                <td><textarea asp-for="Content" rows="5" cols="20"></textarea></td>
+            </tr>
+            <tr>
+                <td>Attachment</td>
+                <td><input type="file" name="attachments" multiple="multiple" /></td>
+            </tr>
+            <tr>
+                <td valign="top">&nbsp;</td>
+                <td><input type="submit" value="Send" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
